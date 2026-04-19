@@ -1,0 +1,6 @@
+{
+  "model_3": "ALLaM-7B-Instruct-preview_base",
+  "model_2": "ALLaM-7B-Instruct-preview_random_checkpoint-42216",
+  "model_4": "Qwen3-8B_base",
+  "model_1": "Qwen3-8B_random_checkpoint-35000"
+}

@@ -1,0 +1,85 @@
+# Model arguments
+model_revision: main
+torch_dtype: bfloat16
+attn_implementation: flash_attention_2
+
+# Data training arguments
+# Base path for poetry TSV data
+data_base_path: /path/to/dialectical_IFT_DATA/tsv
+
+# Tasks to train on (comma-separated)
+# For curriculum mode, order matters: analysis -> continuation -> generation -> restoration
+# For random mode, all tasks are shuffled together
+tasks: analysis,continuation,generation,corruption
+
+# Training mode will be set via command line argument (--training_mode)
+# Options: 'curriculum' or 'random'
+# curriculum: Train sequentially (analysis -> continuation -> generation -> restoration)
+# random: Shuffle and mix all tasks together
+
+# Maximum samples per task (null for all data)
+max_samples_per_task: null
+
+preprocessing_num_workers: 64
+
+prompt_type: chat
+
+# Packing (disable for completion-only training)
+packing: false
+
+# Push to Hub settings
+push_to_hub: false
+dataset_name: dialectical_poetry
+
+ddp_timeout: 180000 # avoid nccl errors when tokenizing large datasets
+
+# LoRA arguments (for adapter training)
+load_in_4bit: false
+lora_r: 64
+lora_alpha: 32
+lora_dropout: 0.05
+lora_target_modules:
+- q_proj
+- k_proj
+- v_proj
+- o_proj
+- gate_proj
+- up_proj
+- down_proj
+use_rslora: true
+
+# SFT trainer config
+bf16: true
+dataset_kwargs:
+  add_special_tokens: true
+  append_concat_token: true
+
+do_eval: true
+eval_strategy: "steps"
+eval_steps: 1000
+gradient_accumulation_steps: 2
+gradient_checkpointing: true
+gradient_checkpointing_kwargs:
+  use_reentrant: false
+hub_model_id: arabic_poetry_model
+hub_strategy: every_save
+learning_rate: 1.0e-04
+log_level: info
+logging_steps: 50
+logging_strategy: steps
+lr_scheduler_type: cosine
+max_steps: -1
+num_train_epochs: 2
+overwrite_output_dir: true
+auto_find_batch_size: true
+per_device_eval_batch_size: 2
+per_device_train_batch_size: 8
+remove_unused_columns: true
+report_to:
+- wandb
+wandb_project: arabic_poetry
+save_strategy: "steps"
+save_steps: 500
+save_total_limit: 3
+seed: 42
+warmup_ratio: 0.1

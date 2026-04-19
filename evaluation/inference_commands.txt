@@ -1,0 +1,256 @@
+# Individual Inference Commands for All Models
+# Run these commands from the evaluation directory
+# Total: 15 commands (5 models × 3 configurations each)
+
+# ==========================================
+# 1. ALLaM-7B-Instruct-preview
+# ==========================================
+
+# 1a. ALLaM Curriculum checkpoint-32000
+sbatch inference.sh \
+    --model_path /path/to/checkpoints/ALLaM-7B-Instruct-preview/curriculum/4tasks/checkpoint-32000 \
+    --base_model humain-ai/ALLaM-7B-Instruct-preview \
+    --data_path /path/to/data/dialectical_IFT_DATA/tsv \
+    --output_path /path/to/outputs/ALLaM-7B_curriculum_checkpoint-32000 \
+    --tasks generation,continuation,corruption \
+    --max_new_tokens 1024 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --top_k 50 \
+    --repetition_penalty 1.15 \
+    --max_num_seqs 64 \
+    --gpus 4
+
+# 1b. ALLaM Random checkpoint-42216
+sbatch inference.sh \
+    --model_path /path/to/checkpoints/ALLaM-7B-Instruct-preview/random/4tasks/checkpoint-42216 \
+    --base_model humain-ai/ALLaM-7B-Instruct-preview \
+    --data_path /path/to/data/dialectical_IFT_DATA/tsv \
+    --output_path /path/to/outputs/ALLaM-7B_random_checkpoint-42216 \
+    --tasks generation,continuation,corruption \
+    --max_new_tokens 1024 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --top_k 50 \
+    --repetition_penalty 1.15 \
+    --max_num_seqs 64 \
+    --gpus 4
+
+# 1c. ALLaM Base Model
+sbatch inference.sh \
+    --model_path humain-ai/ALLaM-7B-Instruct-preview \
+    --data_path /path/to/data/dialectical_IFT_DATA/tsv \
+    --output_path /path/to/outputs/ALLaM-7B_base \
+    --tasks generation,continuation,corruption \
+    --max_new_tokens 1024 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --top_k 50 \
+    --repetition_penalty 1.15 \
+    --max_num_seqs 64 \
+    --gpus 4
+
+# ==========================================
+# 2. Fanar-1-9B
+# ==========================================
+
+# 2a. Fanar Curriculum checkpoint-42216
+sbatch inference.sh \
+    --model_path /path/to/checkpoints/Fanar-1-9B/curriculum/4tasks/checkpoint-42216 \
+    --base_model QCRI/Fanar-1-9B \
+    --data_path /path/to/data/dialectical_IFT_DATA/tsv \
+    --output_path /path/to/outputs/Fanar-1-9B_curriculum_checkpoint-42216 \
+    --tasks generation,continuation,corruption \
+    --max_new_tokens 1024 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --top_k 50 \
+    --repetition_penalty 1.15 \
+    --max_num_seqs 64 \
+    --gpus 4
+
+# 2b. Fanar Random checkpoint-42216
+sbatch inference.sh \
+    --model_path /path/to/checkpoints/Fanar-1-9B/random/4tasks/checkpoint-42216 \
+    --base_model QCRI/Fanar-1-9B \
+    --data_path /path/to/data/dialectical_IFT_DATA/tsv \
+    --output_path /path/to/outputs/Fanar-1-9B_random_checkpoint-42216 \
+    --tasks generation,continuation,corruption \
+    --max_new_tokens 1024 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --top_k 50 \
+    --repetition_penalty 1.15 \
+    --max_num_seqs 64 \
+    --gpus 4
+
+# 2c. Fanar Base Model
+sbatch inference.sh \
+    --model_path QCRI/Fanar-1-9B \
+    --data_path /path/to/data/dialectical_IFT_DATA/tsv \
+    --output_path /path/to/outputs/Fanar-1-9B_base \
+    --tasks generation,continuation,corruption \
+    --max_new_tokens 1024 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --top_k 50 \
+    --repetition_penalty 1.15 \
+    --max_num_seqs 64 \
+    --gpus 4
+
+# ==========================================
+# 3. Gemma-3-12B-IT
+# ==========================================
+
+# 3a. Gemma Curriculum checkpoint-42216
+sbatch inference.sh \
+    --model_path /path/to/checkpoints/gemma-3-12b-it/curriculum/4tasks/checkpoint-42216 \
+    --base_model google/gemma-3-12b-it \
+    --data_path /path/to/data/dialectical_IFT_DATA/tsv \
+    --output_path /path/to/outputs/gemma-3-12b-it_curriculum_checkpoint-42216 \
+    --tasks generation,continuation,corruption \
+    --max_new_tokens 1024 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --top_k 50 \
+    --repetition_penalty 1.15 \
+    --max_num_seqs 64 \
+    --gpus 4
+
+# 3b. Gemma Random checkpoint-42216
+sbatch inference.sh \
+    --model_path /path/to/checkpoints/gemma-3-12b-it/random/4tasks/checkpoint-42216 \
+    --base_model google/gemma-3-12b-it \
+    --data_path /path/to/data/dialectical_IFT_DATA/tsv \
+    --output_path /path/to/outputs/gemma-3-12b-it_random_checkpoint-42216 \
+    --tasks generation,continuation,corruption \
+    --max_new_tokens 1024 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --top_k 50 \
+    --repetition_penalty 1.15 \
+    --max_num_seqs 64 \
+    --gpus 4
+
+# 3c. Gemma Base Model
+sbatch inference.sh \
+    --model_path google/gemma-3-12b-it \
+    --data_path /path/to/data/dialectical_IFT_DATA/tsv \
+    --output_path /path/to/outputs/gemma-3-12b-it_base \
+    --tasks generation,continuation,corruption \
+    --max_new_tokens 1024 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --top_k 50 \
+    --repetition_penalty 1.15 \
+    --max_num_seqs 64 \
+    --gpus 4
+
+# ==========================================
+# 4. Meta-Llama-3-8B-Instruct
+# ==========================================
+
+# 4a. Llama3 Curriculum checkpoint-38500
+sbatch inference.sh \
+    --model_path /path/to/checkpoints/Meta-Llama-3-8B-Instruct/curriculum/4tasks/checkpoint-38500 \
+    --base_model meta-llama/Meta-Llama-3-8B-Instruct \
+    --data_path /path/to/data/dialectical_IFT_DATA/tsv \
+    --output_path /path/to/outputs/Meta-Llama-3-8B_curriculum_checkpoint-38500 \
+    --tasks generation,continuation,corruption \
+    --max_new_tokens 1024 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --top_k 50 \
+    --repetition_penalty 1.15 \
+    --max_num_seqs 64 \
+    --gpus 4
+
+# 4b. Llama3 Random checkpoint-38500
+sbatch inference.sh \
+    --model_path /path/to/checkpoints/Meta-Llama-3-8B-Instruct/random/4tasks/checkpoint-38500 \
+    --base_model meta-llama/Meta-Llama-3-8B-Instruct \
+    --data_path /path/to/data/dialectical_IFT_DATA/tsv \
+    --output_path /path/to/outputs/Meta-Llama-3-8B_random_checkpoint-38500 \
+    --tasks generation,continuation,corruption \
+    --max_new_tokens 1024 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --top_k 50 \
+    --repetition_penalty 1.15 \
+    --max_num_seqs 64 \
+    --gpus 4
+
+# 4c. Llama3 Base Model
+sbatch inference.sh \
+    --model_path meta-llama/Meta-Llama-3-8B-Instruct \
+    --data_path /path/to/data/dialectical_IFT_DATA/tsv \
+    --output_path /path/to/outputs/Meta-Llama-3-8B_base \
+    --tasks generation,continuation,corruption \
+    --max_new_tokens 1024 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --top_k 50 \
+    --repetition_penalty 1.15 \
+    --max_num_seqs 64 \
+    --gpus 4
+
+# ==========================================
+# 5. Qwen3-8B
+# ==========================================
+
+# 5a. Qwen3 Curriculum checkpoint-36000
+sbatch inference.sh \
+    --model_path /path/to/checkpoints/Qwen3-8B/curriculum/4tasks/checkpoint-36000 \
+    --base_model Qwen/Qwen3-8B \
+    --data_path /path/to/data/dialectical_IFT_DATA/tsv \
+    --output_path /path/to/outputs/Qwen3-8B_curriculum_checkpoint-36000 \
+    --tasks generation,continuation,corruption \
+    --max_new_tokens 1024 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --top_k 50 \
+    --repetition_penalty 1.15 \
+    --max_num_seqs 64 \
+    --gpus 4
+
+# 5b. Qwen3 Random checkpoint-35000
+sbatch inference.sh \
+    --model_path /path/to/checkpoints/Qwen3-8B/random/4tasks/checkpoint-35000 \
+    --base_model Qwen/Qwen3-8B \
+    --data_path /path/to/data/dialectical_IFT_DATA/tsv \
+    --output_path /path/to/outputs/Qwen3-8B_random_checkpoint-35000 \
+    --tasks generation,continuation,corruption \
+    --max_new_tokens 1024 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --top_k 50 \
+    --repetition_penalty 1.15 \
+    --max_num_seqs 64 \
+    --gpus 4
+
+# 5c. Qwen3 Base Model
+sbatch inference.sh \
+    --model_path Qwen/Qwen3-8B \
+    --data_path /path/to/data/dialectical_IFT_DATA/tsv \
+    --output_path /path/to/outputs/Qwen3-8B_base \
+    --tasks generation,continuation,corruption \
+    --max_new_tokens 1024 \
+    --temperature 0.7 \
+    --top_p 0.9 \
+    --top_k 50 \
+    --repetition_penalty 1.15 \
+    --max_num_seqs 64 \
+    --gpus 4
+
+# ==========================================
+# Summary
+# ==========================================
+# Total: 15 inference jobs
+# - 5 models
+# - Each model has 3 configurations:
+#   1. Curriculum checkpoint (latest)
+#   2. Random checkpoint (latest)
+#   3. Base model (no fine-tuning)
+#
+# To check job status: squeue -u $USER
+# To check logs: ls -lth logs/

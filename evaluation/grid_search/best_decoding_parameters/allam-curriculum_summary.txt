@@ -1,0 +1,67 @@
+================================================================================
+Grid Search Summary for allam-curriculum
+================================================================================
+
+
+Task: generation
+--------------------------------------------------------------------------------
+Best Configuration: temp_0.7_rp_1.15
+  Temperature: 0.7
+  Repetition Penalty: 1.15
+  Composite Score: 0.0276
+
+Metrics:
+  n_samples: 100.0000
+  avg_word_repetition_rate: 3.4032
+  avg_unique_word_ratio: 0.9676
+  avg_word_frequency: 1.0413
+  max_word_frequency: 1.7300
+  avg_total_words: 37.2300
+  avg_unique_words: 35.3500
+  avg_verses: 4.4500
+  std_verses: 5.0406
+  min_verses: 2.0000
+  max_verses: 38.0000
+
+
+Task: continuation
+--------------------------------------------------------------------------------
+Best Configuration: temp_0.7_rp_1.15
+  Temperature: 0.7
+  Repetition Penalty: 1.15
+  Composite Score: 0.0352
+
+Metrics:
+  n_samples: 100.0000
+  avg_word_repetition_rate: 3.7197
+  avg_unique_word_ratio: 0.9484
+  avg_word_frequency: 1.0573
+  max_word_frequency: 3.6200
+  avg_total_words: 132.5700
+  avg_unique_words: 120.2500
+  avg_verses: 14.2600
+  std_verses: 13.4956
+  min_verses: 1.0000
+  max_verses: 45.0000
+
+
+Task: corruption
+--------------------------------------------------------------------------------
+Best Configuration: temp_0.7_rp_1.15
+  Temperature: 0.7
+  Repetition Penalty: 1.15
+  Composite Score: 0.0352
+
+Metrics:
+  n_samples: 100.0000
+  avg_word_repetition_rate: 4.1418
+  avg_unique_word_ratio: 0.9550
+  avg_word_frequency: 1.0505
+  max_word_frequency: 2.4400
+  avg_total_words: 79.9000
+  avg_unique_words: 75.6800
+  avg_verses: 9.2700
+  std_verses: 4.2187
+  min_verses: 2.0000
+  max_verses: 21.0000
+

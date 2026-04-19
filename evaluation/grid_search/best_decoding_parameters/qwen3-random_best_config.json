@@ -1,0 +1,59 @@
+{
+  "generation": {
+    "config_name": "temp_0.7_rp_1.15",
+    "composite_score": 0.037260184730627754,
+    "temperature": 0.7,
+    "repetition_penalty": 1.15,
+    "metrics": {
+      "n_samples": 100,
+      "avg_word_repetition_rate": 4.120730308515477,
+      "avg_unique_word_ratio": 0.9482938368272699,
+      "avg_word_frequency": 1.0572342118115663,
+      "max_word_frequency": 3.1,
+      "avg_total_words": 146.79,
+      "avg_unique_words": 133.21,
+      "avg_verses": 16.58,
+      "std_verses": 15.598833289704713,
+      "min_verses": 4,
+      "max_verses": 72
+    }
+  },
+  "continuation": {
+    "config_name": "temp_0.7_rp_1.15",
+    "composite_score": 0.03801446260979906,
+    "temperature": 0.7,
+    "repetition_penalty": 1.15,
+    "metrics": {
+      "n_samples": 100,
+      "avg_word_repetition_rate": 4.097132089034609,
+      "avg_unique_word_ratio": 0.9455896238503846,
+      "avg_word_frequency": 1.0602844659870692,
+      "max_word_frequency": 3.46,
+      "avg_total_words": 120.62,
+      "avg_unique_words": 110.19,
+      "avg_verses": 14.83,
+      "std_verses": 12.231970405457986,
+      "min_verses": 3,
+      "max_verses": 48
+    }
+  },
+  "corruption": {
+    "config_name": "temp_0.7_rp_1.15",
+    "composite_score": 0.04116944731833256,
+    "temperature": 0.7,
+    "repetition_penalty": 1.15,
+    "metrics": {
+      "n_samples": 100,
+      "avg_word_repetition_rate": 4.8878098998683,
+      "avg_unique_word_ratio": 0.9482355487945027,
+      "avg_word_frequency": 1.060053122867093,
+      "max_word_frequency": 2.66,
+      "avg_total_words": 96.42,
+      "avg_unique_words": 89.79,
+      "avg_verses": 12.65,
+      "std_verses": 5.600669602824291,
+      "min_verses": 5,
+      "max_verses": 34
+    }
+  }
+}

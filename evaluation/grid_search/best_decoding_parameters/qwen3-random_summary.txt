@@ -1,0 +1,67 @@
+================================================================================
+Grid Search Summary for qwen3-random
+================================================================================
+
+
+Task: generation
+--------------------------------------------------------------------------------
+Best Configuration: temp_0.7_rp_1.15
+  Temperature: 0.7
+  Repetition Penalty: 1.15
+  Composite Score: 0.0373
+
+Metrics:
+  n_samples: 100.0000
+  avg_word_repetition_rate: 4.1207
+  avg_unique_word_ratio: 0.9483
+  avg_word_frequency: 1.0572
+  max_word_frequency: 3.1000
+  avg_total_words: 146.7900
+  avg_unique_words: 133.2100
+  avg_verses: 16.5800
+  std_verses: 15.5988
+  min_verses: 4.0000
+  max_verses: 72.0000
+
+
+Task: continuation
+--------------------------------------------------------------------------------
+Best Configuration: temp_0.7_rp_1.15
+  Temperature: 0.7
+  Repetition Penalty: 1.15
+  Composite Score: 0.0380
+
+Metrics:
+  n_samples: 100.0000
+  avg_word_repetition_rate: 4.0971
+  avg_unique_word_ratio: 0.9456
+  avg_word_frequency: 1.0603
+  max_word_frequency: 3.4600
+  avg_total_words: 120.6200
+  avg_unique_words: 110.1900
+  avg_verses: 14.8300
+  std_verses: 12.2320
+  min_verses: 3.0000
+  max_verses: 48.0000
+
+
+Task: corruption
+--------------------------------------------------------------------------------
+Best Configuration: temp_0.7_rp_1.15
+  Temperature: 0.7
+  Repetition Penalty: 1.15
+  Composite Score: 0.0412
+
+Metrics:
+  n_samples: 100.0000
+  avg_word_repetition_rate: 4.8878
+  avg_unique_word_ratio: 0.9482
+  avg_word_frequency: 1.0601
+  max_word_frequency: 2.6600
+  avg_total_words: 96.4200
+  avg_unique_words: 89.7900
+  avg_verses: 12.6500
+  std_verses: 5.6007
+  min_verses: 5.0000
+  max_verses: 34.0000
+

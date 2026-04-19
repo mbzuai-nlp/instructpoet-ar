@@ -1,0 +1,1073 @@
+{
+  "results": {
+    "poetry_analysis": {
+      "acc,none": 0.5349369988545246,
+      "acc_stderr,none": 0.005329831074460317,
+      "alias": "poetry_analysis"
+    },
+    "genre__poem_text__poet_name__meter": {
+      "alias": " - genre__poem_text__poet_name__meter",
+      "acc,none": 0.29,
+      "acc_stderr,none": 0.03216633903375033,
+      "acc_norm,none": 0.3,
+      "acc_norm_stderr,none": 0.032485017806822114
+    },
+    "poem_text__genre": {
+      "alias": " - poem_text__genre",
+      "acc,none": 0.6309090909090909,
+      "acc_stderr,none": 0.020595099507189248,
+      "acc_norm,none": 0.6327272727272727,
+      "acc_norm_stderr,none": 0.020573891490538367
+    },
+    "poem_text__keywords": {
+      "alias": " - poem_text__keywords",
+      "acc,none": 0.8743961352657005,
+      "acc_stderr,none": 0.01330943964660505,
+      "acc_norm,none": 0.8743961352657005,
+      "acc_norm_stderr,none": 0.01330943964660505
+    },
+    "poem_text__meter": {
+      "alias": " - poem_text__meter",
+      "acc,none": 0.33288590604026846,
+      "acc_stderr,none": 0.01727671997879896,
+      "acc_norm,none": 0.3395973154362416,
+      "acc_norm_stderr,none": 0.0173620127754214
+    },
+    "poem_text__poem_title": {
+      "alias": " - poem_text__poem_title",
+      "acc,none": 0.9463470319634704,
+      "acc_stderr,none": 0.007617598200963012,
+      "acc_norm,none": 0.9474885844748858,
+      "acc_norm_stderr,none": 0.007540668160214419
+    },
+    "poem_text__poet_era": {
+      "alias": " - poem_text__poet_era",
+      "acc,none": 0.3887147335423197,
+      "acc_stderr,none": 0.01931380085342392,
+      "acc_norm,none": 0.38557993730407525,
+      "acc_norm_stderr,none": 0.01928502437726759
+    },
+    "poem_text__poet_name": {
+      "alias": " - poem_text__poet_name",
+      "acc,none": 0.41554702495201534,
+      "acc_stderr,none": 0.015274236500648977,
+      "acc_norm,none": 0.4165067178502879,
+      "acc_norm_stderr,none": 0.015279303960761
+    },
+    "poem_text__poet_name__genre": {
+      "alias": " - poem_text__poet_name__genre",
+      "acc,none": 0.6479750778816199,
+      "acc_stderr,none": 0.026698746244318793,
+      "acc_norm,none": 0.6479750778816199,
+      "acc_norm_stderr,none": 0.026698746244318793
+    },
+    "poem_text__poet_name__meter": {
+      "alias": " - poem_text__poet_name__meter",
+      "acc,none": 0.3345070422535211,
+      "acc_stderr,none": 0.028046659818657005,
+      "acc_norm,none": 0.3415492957746479,
+      "acc_norm_stderr,none": 0.02819000238352869
+    },
+    "poem_text__poet_name__poet_era": {
+      "alias": " - poem_text__poet_name__poet_era",
+      "acc,none": 0.5377777777777778,
+      "acc_stderr,none": 0.03331216258916315,
+      "acc_norm,none": 0.5377777777777778,
+      "acc_norm_stderr,none": 0.03331216258916315
+    },
+    "poem_text__poet_name__rhyme": {
+      "alias": " - poem_text__poet_name__rhyme",
+      "acc,none": 0.3185840707964602,
+      "acc_stderr,none": 0.031061820840326118,
+      "acc_norm,none": 0.3185840707964602,
+      "acc_norm_stderr,none": 0.03106182084032612
+    },
+    "poet_name__genre": {
+      "alias": " - poet_name__genre",
+      "acc,none": 0.35096153846153844,
+      "acc_stderr,none": 0.023428308331642847,
+      "acc_norm,none": 0.3485576923076923,
+      "acc_norm_stderr,none": 0.02339113349890165
+    },
+    "poet_name__meter": {
+      "alias": " - poet_name__meter",
+      "acc,none": 0.3131868131868132,
+      "acc_stderr,none": 0.024342643218803594,
+      "acc_norm,none": 0.31043956043956045,
+      "acc_norm_stderr,none": 0.024284064980837385
+    },
+    "poet_name__poet_era": {
+      "alias": " - poet_name__poet_era",
+      "acc,none": 0.5756302521008403,
+      "acc_stderr,none": 0.022677606156371585,
+      "acc_norm,none": 0.5735294117647058,
+      "acc_norm_stderr,none": 0.022692146826393554
+    }
+  },
+  "groups": {
+    "poetry_analysis": {
+      "acc,none": 0.5349369988545246,
+      "acc_stderr,none": 0.005329831074460317,
+      "alias": "poetry_analysis"
+    }
+  },
+  "group_subtasks": {
+    "poetry_analysis": [
+      "poem_text__genre",
+      "poem_text__keywords",
+      "poem_text__meter",
+      "poem_text__poem_title",
+      "poem_text__poet_era",
+      "poem_text__poet_name",
+      "poem_text__poet_name__genre",
+      "poem_text__poet_name__meter",
+      "poem_text__poet_name__poet_era",
+      "poem_text__poet_name__rhyme",
+      "poet_name__genre",
+      "poet_name__meter",
+      "poet_name__poet_era",
+      "genre__poem_text__poet_name__meter"
+    ]
+  },
+  "configs": {
+    "genre__poem_text__poet_name__meter": {
+      "task": "genre__poem_text__poet_name__meter",
+      "tag": "genre__poem_text__poet_name__meter_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/poetry_analysisFannOrFlop_50verses_lm_harness_format/analysis_genre__poem_text__poet_name___meter.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "أجب عن السؤال باستخدام الخيار المناسب من بين أ أو ب أو ج أو د أو و. الرجاء الرد بالحرف الصحيح فقط: أ أو ب أو ج أو د أو و دون أي شرح أو معلومات إضافية.  \n{{ question }}  \nالإجابة:\n",
+      "doc_to_target": "correct_answer",
+      "unsafe_code": false,
+      "doc_to_choice": "{{ options }}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "Qwen/Qwen3-8B",
+        "gpu_memory_utilization": 0.8,
+        "tensor_parallel_size": 4,
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "max_model_len": 8192,
+        "enable_prefix_caching": true,
+        "enable_thinking": false
+      }
+    },
+    "poem_text__genre": {
+      "task": "poem_text__genre",
+      "tag": "poem_text__genre_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/poetry_analysisFannOrFlop_50verses_lm_harness_format/analysis_poem_text___genre.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "أجب عن السؤال باستخدام الخيار المناسب من بين أ أو ب أو ج أو د أو و. الرجاء الرد بالحرف الصحيح فقط: أ أو ب أو ج أو د أو و دون أي شرح أو معلومات إضافية.  \n{{ question }}  \nالإجابة:\n",
+      "doc_to_target": "correct_answer",
+      "unsafe_code": false,
+      "doc_to_choice": "{{ options }}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "Qwen/Qwen3-8B",
+        "gpu_memory_utilization": 0.8,
+        "tensor_parallel_size": 4,
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "max_model_len": 8192,
+        "enable_prefix_caching": true,
+        "enable_thinking": false
+      }
+    },
+    "poem_text__keywords": {
+      "task": "poem_text__keywords",
+      "tag": "poem_text__keywords_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/poetry_analysisFannOrFlop_50verses_lm_harness_format/analysis_poem_text___keywords.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "أجب عن السؤال باستخدام الخيار المناسب من بين أ أو ب أو ج أو د أو و. الرجاء الرد بالحرف الصحيح فقط: أ أو ب أو ج أو د أو و دون أي شرح أو معلومات إضافية.  \n{{ question }}  \nالإجابة:\n",
+      "doc_to_target": "correct_answer",
+      "unsafe_code": false,
+      "doc_to_choice": "{{ options }}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "Qwen/Qwen3-8B",
+        "gpu_memory_utilization": 0.8,
+        "tensor_parallel_size": 4,
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "max_model_len": 8192,
+        "enable_prefix_caching": true,
+        "enable_thinking": false
+      }
+    },
+    "poem_text__meter": {
+      "task": "poem_text__meter",
+      "tag": "poem_text__meter_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/poetry_analysisFannOrFlop_50verses_lm_harness_format/analysis_poem_text___meter.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "أجب عن السؤال باستخدام الخيار المناسب من بين أ أو ب أو ج أو د أو و. الرجاء الرد بالحرف الصحيح فقط: أ أو ب أو ج أو د أو و دون أي شرح أو معلومات إضافية.  \n{{ question }}  \nالإجابة:\n",
+      "doc_to_target": "correct_answer",
+      "unsafe_code": false,
+      "doc_to_choice": "{{ options }}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "Qwen/Qwen3-8B",
+        "gpu_memory_utilization": 0.8,
+        "tensor_parallel_size": 4,
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "max_model_len": 8192,
+        "enable_prefix_caching": true,
+        "enable_thinking": false
+      }
+    },
+    "poem_text__poem_title": {
+      "task": "poem_text__poem_title",
+      "tag": "poem_text__poem_title_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/poetry_analysisFannOrFlop_50verses_lm_harness_format/analysis_poem_text___poem_title.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "أجب عن السؤال باستخدام الخيار المناسب من بين أ أو ب أو ج أو د أو و. الرجاء الرد بالحرف الصحيح فقط: أ أو ب أو ج أو د أو و دون أي شرح أو معلومات إضافية.  \n{{ question }}  \nالإجابة:\n",
+      "doc_to_target": "correct_answer",
+      "unsafe_code": false,
+      "doc_to_choice": "{{ options }}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "Qwen/Qwen3-8B",
+        "gpu_memory_utilization": 0.8,
+        "tensor_parallel_size": 4,
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "max_model_len": 8192,
+        "enable_prefix_caching": true,
+        "enable_thinking": false
+      }
+    },
+    "poem_text__poet_era": {
+      "task": "poem_text__poet_era",
+      "task_alias": "poem_text__poet_era",
+      "tag": "poem_text__poet_era_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/poetry_analysisFannOrFlop_50verses_lm_harness_format/analysis_poem_text___poet_era.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "أجب عن السؤال باستخدام الخيار المناسب من بين أ أو ب أو ج أو د أو و. الرجاء الرد بالحرف الصحيح فقط: أ أو ب أو ج أو د أو و دون أي شرح أو معلومات إضافية.  \n{{ question }}  \nالإجابة:\n",
+      "doc_to_target": "correct_answer",
+      "unsafe_code": false,
+      "doc_to_choice": "{{ options }}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "Qwen/Qwen3-8B",
+        "gpu_memory_utilization": 0.8,
+        "tensor_parallel_size": 4,
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "max_model_len": 8192,
+        "enable_prefix_caching": true,
+        "enable_thinking": false
+      }
+    },
+    "poem_text__poet_name": {
+      "task": "poem_text__poet_name",
+      "tag": "poem_text__poet_name_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/poetry_analysisFannOrFlop_50verses_lm_harness_format/analysis_poem_text___poet_name.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "أجب عن السؤال باستخدام الخيار المناسب من بين أ أو ب أو ج أو د أو و. الرجاء الرد بالحرف الصحيح فقط: أ أو ب أو ج أو د أو و دون أي شرح أو معلومات إضافية.  \n{{ question }}  \nالإجابة:\n",
+      "doc_to_target": "correct_answer",
+      "unsafe_code": false,
+      "doc_to_choice": "{{ options }}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "Qwen/Qwen3-8B",
+        "gpu_memory_utilization": 0.8,
+        "tensor_parallel_size": 4,
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "max_model_len": 8192,
+        "enable_prefix_caching": true,
+        "enable_thinking": false
+      }
+    },
+    "poem_text__poet_name__genre": {
+      "task": "poem_text__poet_name__genre",
+      "tag": "poem_text__poet_name__genre_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/poetry_analysisFannOrFlop_50verses_lm_harness_format/analysis_poem_text__poet_name___genre.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "أجب عن السؤال باستخدام الخيار المناسب من بين أ أو ب أو ج أو د أو و. الرجاء الرد بالحرف الصحيح فقط: أ أو ب أو ج أو د أو و دون أي شرح أو معلومات إضافية.  \n{{ question }}  \nالإجابة:\n",
+      "doc_to_target": "correct_answer",
+      "unsafe_code": false,
+      "doc_to_choice": "{{ options }}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "Qwen/Qwen3-8B",
+        "gpu_memory_utilization": 0.8,
+        "tensor_parallel_size": 4,
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "max_model_len": 8192,
+        "enable_prefix_caching": true,
+        "enable_thinking": false
+      }
+    },
+    "poem_text__poet_name__meter": {
+      "task": "poem_text__poet_name__meter",
+      "tag": "poem_text__poet_name__meter_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/poetry_analysisFannOrFlop_50verses_lm_harness_format/analysis_poem_text__poet_name___meter.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "أجب عن السؤال باستخدام الخيار المناسب من بين أ أو ب أو ج أو د أو و. الرجاء الرد بالحرف الصحيح فقط: أ أو ب أو ج أو د أو و دون أي شرح أو معلومات إضافية.  \n{{ question }}  \nالإجابة:\n",
+      "doc_to_target": "correct_answer",
+      "unsafe_code": false,
+      "doc_to_choice": "{{ options }}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "Qwen/Qwen3-8B",
+        "gpu_memory_utilization": 0.8,
+        "tensor_parallel_size": 4,
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "max_model_len": 8192,
+        "enable_prefix_caching": true,
+        "enable_thinking": false
+      }
+    },
+    "poem_text__poet_name__poet_era": {
+      "task": "poem_text__poet_name__poet_era",
+      "tag": "poem_text__poet_name__poet_era_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/poetry_analysisFannOrFlop_50verses_lm_harness_format/analysis_poem_text__poet_name___poet_era.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "أجب عن السؤال باستخدام الخيار المناسب من بين أ أو ب أو ج أو د أو و. الرجاء الرد بالحرف الصحيح فقط: أ أو ب أو ج أو د أو و دون أي شرح أو معلومات إضافية.  \n{{ question }}  \nالإجابة:\n",
+      "doc_to_target": "correct_answer",
+      "unsafe_code": false,
+      "doc_to_choice": "{{ options }}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "Qwen/Qwen3-8B",
+        "gpu_memory_utilization": 0.8,
+        "tensor_parallel_size": 4,
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "max_model_len": 8192,
+        "enable_prefix_caching": true,
+        "enable_thinking": false
+      }
+    },
+    "poem_text__poet_name__rhyme": {
+      "task": "poem_text__poet_name__rhyme",
+      "tag": "poem_text__poet_name__rhyme_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/poetry_analysisFannOrFlop_50verses_lm_harness_format/analysis_poem_text__poet_name___rhyme.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "أجب عن السؤال باستخدام الخيار المناسب من بين أ أو ب أو ج أو د أو و. الرجاء الرد بالحرف الصحيح فقط: أ أو ب أو ج أو د أو و دون أي شرح أو معلومات إضافية.  \n{{ question }}  \nالإجابة:\n",
+      "doc_to_target": "correct_answer",
+      "unsafe_code": false,
+      "doc_to_choice": "{{ options }}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "Qwen/Qwen3-8B",
+        "gpu_memory_utilization": 0.8,
+        "tensor_parallel_size": 4,
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "max_model_len": 8192,
+        "enable_prefix_caching": true,
+        "enable_thinking": false
+      }
+    },
+    "poet_name__genre": {
+      "task": "poet_name__genre",
+      "tag": "poet_name__genre_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/poetry_analysisFannOrFlop_50verses_lm_harness_format/analysis_poet_name___genre.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "أجب عن السؤال باستخدام الخيار المناسب من بين أ أو ب أو ج أو د أو و. الرجاء الرد بالحرف الصحيح فقط: أ أو ب أو ج أو د أو و دون أي شرح أو معلومات إضافية.  \n{{ question }}  \nالإجابة:\n",
+      "doc_to_target": "correct_answer",
+      "unsafe_code": false,
+      "doc_to_choice": "{{ options }}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "Qwen/Qwen3-8B",
+        "gpu_memory_utilization": 0.8,
+        "tensor_parallel_size": 4,
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "max_model_len": 8192,
+        "enable_prefix_caching": true,
+        "enable_thinking": false
+      }
+    },
+    "poet_name__meter": {
+      "task": "poet_name__meter",
+      "tag": "poet_name__meter_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/poetry_analysisFannOrFlop_50verses_lm_harness_format/analysis_poet_name___meter.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "أجب عن السؤال باستخدام الخيار المناسب من بين أ أو ب أو ج أو د أو و. الرجاء الرد بالحرف الصحيح فقط: أ أو ب أو ج أو د أو و دون أي شرح أو معلومات إضافية.  \n{{ question }}  \nالإجابة:\n",
+      "doc_to_target": "correct_answer",
+      "unsafe_code": false,
+      "doc_to_choice": "{{ options }}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "Qwen/Qwen3-8B",
+        "gpu_memory_utilization": 0.8,
+        "tensor_parallel_size": 4,
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "max_model_len": 8192,
+        "enable_prefix_caching": true,
+        "enable_thinking": false
+      }
+    },
+    "poet_name__poet_era": {
+      "task": "poet_name__poet_era",
+      "tag": "poet_name__poet_era_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/poetry_analysisFannOrFlop_50verses_lm_harness_format/analysis_poet_name___poet_era.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "doc_to_text": "أجب عن السؤال باستخدام الخيار المناسب من بين أ أو ب أو ج أو د أو و. الرجاء الرد بالحرف الصحيح فقط: أ أو ب أو ج أو د أو و دون أي شرح أو معلومات إضافية.  \n{{ question }}  \nالإجابة:\n",
+      "doc_to_target": "correct_answer",
+      "unsafe_code": false,
+      "doc_to_choice": "{{ options }}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "Qwen/Qwen3-8B",
+        "gpu_memory_utilization": 0.8,
+        "tensor_parallel_size": 4,
+        "dtype": "bfloat16",
+        "trust_remote_code": true,
+        "max_model_len": 8192,
+        "enable_prefix_caching": true,
+        "enable_thinking": false
+      }
+    }
+  },
+  "versions": {
+    "genre__poem_text__poet_name__meter": 0.0,
+    "poem_text__genre": 0.0,
+    "poem_text__keywords": 0.0,
+    "poem_text__meter": 0.0,
+    "poem_text__poem_title": 0.0,
+    "poem_text__poet_era": 0.0,
+    "poem_text__poet_name": 0.0,
+    "poem_text__poet_name__genre": 0.0,
+    "poem_text__poet_name__meter": 0.0,
+    "poem_text__poet_name__poet_era": 0.0,
+    "poem_text__poet_name__rhyme": 0.0,
+    "poet_name__genre": 0.0,
+    "poet_name__meter": 0.0,
+    "poet_name__poet_era": 0.0,
+    "poetry_analysis": 0
+  },
+  "n-shot": {
+    "genre__poem_text__poet_name__meter": 0,
+    "poem_text__genre": 0,
+    "poem_text__keywords": 0,
+    "poem_text__meter": 0,
+    "poem_text__poem_title": 0,
+    "poem_text__poet_era": 0,
+    "poem_text__poet_name": 0,
+    "poem_text__poet_name__genre": 0,
+    "poem_text__poet_name__meter": 0,
+    "poem_text__poet_name__poet_era": 0,
+    "poem_text__poet_name__rhyme": 0,
+    "poet_name__genre": 0,
+    "poet_name__meter": 0,
+    "poet_name__poet_era": 0
+  },
+  "higher_is_better": {
+    "genre__poem_text__poet_name__meter": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "poem_text__genre": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "poem_text__keywords": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "poem_text__meter": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "poem_text__poem_title": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "poem_text__poet_era": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "poem_text__poet_name": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "poem_text__poet_name__genre": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "poem_text__poet_name__meter": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "poem_text__poet_name__poet_era": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "poem_text__poet_name__rhyme": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "poet_name__genre": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "poet_name__meter": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "poet_name__poet_era": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "poetry_analysis": {
+      "acc": true,
+      "acc_norm": true
+    }
+  },
+  "n-samples": {
+    "poem_text__genre": {
+      "original": 550,
+      "effective": 550
+    },
+    "poem_text__keywords": {
+      "original": 621,
+      "effective": 621
+    },
+    "poem_text__meter": {
+      "original": 745,
+      "effective": 745
+    },
+    "poem_text__poem_title": {
+      "original": 876,
+      "effective": 876
+    },
+    "poem_text__poet_era": {
+      "original": 638,
+      "effective": 638
+    },
+    "poem_text__poet_name": {
+      "original": 1042,
+      "effective": 1042
+    },
+    "poem_text__poet_name__genre": {
+      "original": 321,
+      "effective": 321
+    },
+    "poem_text__poet_name__meter": {
+      "original": 284,
+      "effective": 284
+    },
+    "poem_text__poet_name__poet_era": {
+      "original": 225,
+      "effective": 225
+    },
+    "poem_text__poet_name__rhyme": {
+      "original": 226,
+      "effective": 226
+    },
+    "poet_name__genre": {
+      "original": 416,
+      "effective": 416
+    },
+    "poet_name__meter": {
+      "original": 364,
+      "effective": 364
+    },
+    "poet_name__poet_era": {
+      "original": 476,
+      "effective": 476
+    },
+    "genre__poem_text__poet_name__meter": {
+      "original": 200,
+      "effective": 200
+    }
+  },
+  "config": {
+    "model": "vllm",
+    "model_args": {
+      "pretrained": "Qwen/Qwen3-8B",
+      "gpu_memory_utilization": 0.8,
+      "tensor_parallel_size": 4,
+      "dtype": "bfloat16",
+      "trust_remote_code": true,
+      "max_model_len": 8192,
+      "enable_prefix_caching": true,
+      "enable_thinking": false
+    },
+    "batch_size": "auto",
+    "batch_sizes": [],
+    "device": null,
+    "use_cache": "<PROJECT_ROOT>/evaluation/evaluation_results_vllm/poetry_analysis/Qwen3-8B/cache",
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 42,
+    "numpy_seed": 42,
+    "torch_seed": 42,
+    "fewshot_seed": 42
+  },
+  "git_hash": "4d76f46",
+  "date": 1765490277.816739,
+  "pretty_env_info": "PyTorch version: 2.9.0+cu128\nIs debug build: False\nCUDA used to build PyTorch: 12.8\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 22.04.5 LTS (x86_64)\nGCC version: (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0\nClang version: Could not collect\nCMake version: version 3.22.1\nLibc version: glibc-2.35\n\nPython version: 3.10.19 | packaged by conda-forge | (main, Oct 22 2025, 22:29:10) [GCC 14.3.0] (64-bit runtime)\nPython platform: Linux-5.15.0-131-generic-x86_64-with-glibc2.35\nIs CUDA available: True\nCUDA runtime version: Could not collect\nCUDA_MODULE_LOADING set to: \nGPU models and configuration: \nGPU 0: NVIDIA A100-SXM4-80GB\nGPU 1: NVIDIA A100-SXM4-80GB\nGPU 2: NVIDIA A100-SXM4-80GB\nGPU 3: NVIDIA A100-SXM4-80GB\n\nNvidia driver version: 570.86.10\ncuDNN version: Could not collect\nIs XPU available: False\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:                         x86_64\nCPU op-mode(s):                       32-bit, 64-bit\nAddress sizes:                        48 bits physical, 48 bits virtual\nByte Order:                           Little Endian\nCPU(s):                               64\nOn-line CPU(s) list:                  0-63\nVendor ID:                            AuthenticAMD\nModel name:                           AMD EPYC 7713P 64-Core Processor\nCPU family:                           25\nModel:                                1\nThread(s) per core:                   1\nCore(s) per socket:                   64\nSocket(s):                            1\nStepping:                             1\nBogoMIPS:                             3992.41\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm\nVirtualization:                       AMD-V\nL1d cache:                            2 MiB (64 instances)\nL1i cache:                            2 MiB (64 instances)\nL2 cache:                             32 MiB (64 instances)\nL3 cache:                             256 MiB (8 instances)\nNUMA node(s):                         4\nNUMA node0 CPU(s):                    0-15\nNUMA node1 CPU(s):                    16-31\nNUMA node2 CPU(s):                    32-47\nNUMA node3 CPU(s):                    48-63\nVulnerability Gather data sampling:   Not affected\nVulnerability Itlb multihit:          Not affected\nVulnerability L1tf:                   Not affected\nVulnerability Mds:                    Not affected\nVulnerability Meltdown:               Not affected\nVulnerability Mmio stale data:        Not affected\nVulnerability Reg file data sampling: Not affected\nVulnerability Retbleed:               Not affected\nVulnerability Spec rstack overflow:   Mitigation; safe RET\nVulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl and seccomp\nVulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                  Not affected\nVulnerability Tsx async abort:        Not affected\n\nVersions of relevant libraries:\n[pip3] mypy==1.18.2\n[pip3] mypy_extensions==1.1.0\n[pip3] numpy==2.2.6\n[pip3] nvidia-cublas-cu12==12.8.4.1\n[pip3] nvidia-cuda-cupti-cu12==12.8.90\n[pip3] nvidia-cuda-nvrtc-cu12==12.8.93\n[pip3] nvidia-cuda-runtime-cu12==12.8.90\n[pip3] nvidia-cudnn-cu12==9.10.2.21\n[pip3] nvidia-cudnn-frontend==1.16.0\n[pip3] nvidia-cufft-cu12==11.3.3.83\n[pip3] nvidia-curand-cu12==10.3.9.90\n[pip3] nvidia-cusolver-cu12==11.7.3.90\n[pip3] nvidia-cusparse-cu12==12.5.8.93\n[pip3] nvidia-cusparselt-cu12==0.7.1\n[pip3] nvidia-nccl-cu12==2.27.5\n[pip3] nvidia-nvjitlink-cu12==12.8.93\n[pip3] nvidia-nvtx-cu12==12.8.90\n[pip3] torch==2.9.0\n[pip3] torchaudio==2.9.0\n[pip3] torchvision==0.24.0\n[pip3] triton==3.5.0\n[conda] numpy                     2.2.6                    pypi_0    pypi\n[conda] nvidia-cublas-cu12        12.8.4.1                 pypi_0    pypi\n[conda] nvidia-cuda-cupti-cu12    12.8.90                  pypi_0    pypi\n[conda] nvidia-cuda-nvrtc-cu12    12.8.93                  pypi_0    pypi\n[conda] nvidia-cuda-runtime-cu12  12.8.90                  pypi_0    pypi\n[conda] nvidia-cudnn-cu12         9.10.2.21                pypi_0    pypi\n[conda] nvidia-cudnn-frontend     1.16.0                   pypi_0    pypi\n[conda] nvidia-cufft-cu12         11.3.3.83                pypi_0    pypi\n[conda] nvidia-curand-cu12        10.3.9.90                pypi_0    pypi\n[conda] nvidia-cusolver-cu12      11.7.3.90                pypi_0    pypi\n[conda] nvidia-cusparse-cu12      12.5.8.93                pypi_0    pypi\n[conda] nvidia-cusparselt-cu12    0.7.1                    pypi_0    pypi\n[conda] nvidia-nccl-cu12          2.27.5                   pypi_0    pypi\n[conda] nvidia-nvjitlink-cu12     12.8.93                  pypi_0    pypi\n[conda] nvidia-nvtx-cu12          12.8.90                  pypi_0    pypi\n[conda] torch                     2.9.0                    pypi_0    pypi\n[conda] torchaudio                2.9.0                    pypi_0    pypi\n[conda] torchvision               0.24.0                   pypi_0    pypi\n[conda] triton                    3.5.0                    pypi_0    pypi",
+  "transformers_version": "4.57.3",
+  "lm_eval_version": "0.4.9.1",
+  "upper_git_hash": "4d76f46a2a27f941a9b07a73a7da5142ebceec78",
+  "tokenizer_pad_token": [
+    "<|endoftext|>",
+    "151643"
+  ],
+  "tokenizer_eos_token": [
+    "<|im_end|>",
+    "151645"
+  ],
+  "tokenizer_bos_token": [
+    null,
+    "None"
+  ],
+  "eot_token_id": 151645,
+  "max_length": 8192,
+  "task_hashes": {
+    "poem_text__genre": "a0eca12f4bbdab51ce6fa492b60ead2c0eb179e96a2fd6d300eec4176e7215ab",
+    "poem_text__keywords": "12622709c32893dc4bf6eb1517012ce441107298e01a2e7110d9d644bc979fd2",
+    "poem_text__meter": "ee11d7f041330f6b1f6db913b6e377fda4fea31f121a8425e499929275dfa38b",
+    "poem_text__poem_title": "ad4c06e0f2792eb0229b540725f758d35a503e2cb0a4046613cf49d64102dd11",
+    "poem_text__poet_era": "661f3511e963aafdd1792f2f6bd818f8a0631b85b9cc4d9ecc39d4ee8a7b9f6e",
+    "poem_text__poet_name": "1ebfa508bbc5a093b400cdc11fe41f30b78fada5eb115c4b947f0c292ea0c644",
+    "poem_text__poet_name__genre": "22e7d65b3757334d2e2ad25b1fc995979b848097319d00b030e902f3efe1f2f3",
+    "poem_text__poet_name__meter": "55c219dfabd7eeee3434ce7f0c45887a8177de678db1e79e6699430a954ce0eb",
+    "poem_text__poet_name__poet_era": "0e8ae7ed1848143f0e3db021e1b18e9ec3eb4166770a0a839c24735ecade8110",
+    "poem_text__poet_name__rhyme": "3941e92e379d5157783d3bd296b2838b240ddf62e3dcfd01c5fe4904be1ae7b5",
+    "poet_name__genre": "b2422383214a89f74ebd6dfe06bf7a29a031cb79746fed97d04d325e52324066",
+    "poet_name__meter": "00c343541e89a3a2122fb52a2b3be4c5cd4afc5dc45735fddb37539554624277",
+    "poet_name__poet_era": "c7b5c0628f11f903b13c2f571fe7738203dadde9ffd2a79c5e47378bad0cfa36",
+    "genre__poem_text__poet_name__meter": "175dbfd79f95692e7d87cbb1b4a91831cfab42231ef9f2398ee7e1a86cd0345f"
+  },
+  "model_source": "vllm",
+  "model_name": "",
+  "model_name_sanitized": "",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": "{%- if tools %}\n    {{- '<|im_start|>system\\n' }}\n    {%- if messages[0].role == 'system' %}\n        {{- messages[0].content + '\\n\\n' }}\n    {%- endif %}\n    {{- \"# Tools\\n\\nYou may call one or more functions to assist with the user query.\\n\\nYou are provided with function signatures within <tools></tools> XML tags:\\n<tools>\" }}\n    {%- for tool in tools %}\n        {{- \"\\n\" }}\n        {{- tool | tojson }}\n    {%- endfor %}\n    {{- \"\\n</tools>\\n\\nFor each function call, return a json object with function name and arguments within <tool_call></tool_call> XML tags:\\n<tool_call>\\n{\\\"name\\\": <function-name>, \\\"arguments\\\": <args-json-object>}\\n</tool_call><|im_end|>\\n\" }}\n{%- else %}\n    {%- if messages[0].role == 'system' %}\n        {{- '<|im_start|>system\\n' + messages[0].content + '<|im_end|>\\n' }}\n    {%- endif %}\n{%- endif %}\n{%- set ns = namespace(multi_step_tool=true, last_query_index=messages|length - 1) %}\n{%- for message in messages[::-1] %}\n    {%- set index = (messages|length - 1) - loop.index0 %}\n    {%- if ns.multi_step_tool and message.role == \"user\" and message.content is string and not(message.content.startswith('<tool_response>') and message.content.endswith('</tool_response>')) %}\n        {%- set ns.multi_step_tool = false %}\n        {%- set ns.last_query_index = index %}\n    {%- endif %}\n{%- endfor %}\n{%- for message in messages %}\n    {%- if message.content is string %}\n        {%- set content = message.content %}\n    {%- else %}\n        {%- set content = '' %}\n    {%- endif %}\n    {%- if (message.role == \"user\") or (message.role == \"system\" and not loop.first) %}\n        {{- '<|im_start|>' + message.role + '\\n' + content + '<|im_end|>' + '\\n' }}\n    {%- elif message.role == \"assistant\" %}\n        {%- set reasoning_content = '' %}\n        {%- if message.reasoning_content is string %}\n            {%- set reasoning_content = message.reasoning_content %}\n        {%- else %}\n            {%- if '</think>' in content %}\n                {%- set reasoning_content = content.split('</think>')[0].rstrip('\\n').split('<think>')[-1].lstrip('\\n') %}\n                {%- set content = content.split('</think>')[-1].lstrip('\\n') %}\n            {%- endif %}\n        {%- endif %}\n        {%- if loop.index0 > ns.last_query_index %}\n            {%- if loop.last or (not loop.last and reasoning_content) %}\n                {{- '<|im_start|>' + message.role + '\\n<think>\\n' + reasoning_content.strip('\\n') + '\\n</think>\\n\\n' + content.lstrip('\\n') }}\n            {%- else %}\n                {{- '<|im_start|>' + message.role + '\\n' + content }}\n            {%- endif %}\n        {%- else %}\n            {{- '<|im_start|>' + message.role + '\\n' + content }}\n        {%- endif %}\n        {%- if message.tool_calls %}\n            {%- for tool_call in message.tool_calls %}\n                {%- if (loop.first and content) or (not loop.first) %}\n                    {{- '\\n' }}\n                {%- endif %}\n                {%- if tool_call.function %}\n                    {%- set tool_call = tool_call.function %}\n                {%- endif %}\n                {{- '<tool_call>\\n{\"name\": \"' }}\n                {{- tool_call.name }}\n                {{- '\", \"arguments\": ' }}\n                {%- if tool_call.arguments is string %}\n                    {{- tool_call.arguments }}\n                {%- else %}\n                    {{- tool_call.arguments | tojson }}\n                {%- endif %}\n                {{- '}\\n</tool_call>' }}\n            {%- endfor %}\n        {%- endif %}\n        {{- '<|im_end|>\\n' }}\n    {%- elif message.role == \"tool\" %}\n        {%- if loop.first or (messages[loop.index0 - 1].role != \"tool\") %}\n            {{- '<|im_start|>user' }}\n        {%- endif %}\n        {{- '\\n<tool_response>\\n' }}\n        {{- content }}\n        {{- '\\n</tool_response>' }}\n        {%- if loop.last or (messages[loop.index0 + 1].role != \"tool\") %}\n            {{- '<|im_end|>\\n' }}\n        {%- endif %}\n    {%- endif %}\n{%- endfor %}\n{%- if add_generation_prompt %}\n    {{- '<|im_start|>assistant\\n' }}\n    {%- if enable_thinking is defined and enable_thinking is false %}\n        {{- '<think>\\n\\n</think>\\n\\n' }}\n    {%- endif %}\n{%- endif %}",
+  "chat_template_sha": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+  "start_time": 22415016.41506512,
+  "end_time": 22416911.2545808,
+  "total_evaluation_time_seconds": "1894.8395156785846"
+}

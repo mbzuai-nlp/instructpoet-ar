@@ -1,0 +1,22 @@
+{
+  "model_path": "/path/to/checkpoints/ALLaM-7B-Instruct-preview/curriculum/4tasks/checkpoint-32000",
+  "model_type": "adapters",
+  "base_model": "humain-ai/ALLaM-7B-Instruct-preview",
+  "model_name": "ALLaM-7B-Instruct-preview",
+  "training_mode": "curriculum",
+  "checkpoint": "checkpoint-32000",
+  "data_path": "<PROJECT_ROOT>/evaluation/grid_search/grid_search_results/sampled_data",
+  "tasks": "corruption",
+  "prompt_type": "chat",
+  "max_new_tokens": 1024,
+  "temperature": 0.7,
+  "top_p": 0.9,
+  "top_k": 50,
+  "repetition_penalty": 1.15,
+  "no_repeat_ngram_size": 0,
+  "max_num_seqs": 16,
+  "gpus": 4,
+  "max_samples": "100",
+  "start_time": "Tue Dec  9 06:28:29 PM +04 2025",
+  "hostname": "gpumid-18"
+}

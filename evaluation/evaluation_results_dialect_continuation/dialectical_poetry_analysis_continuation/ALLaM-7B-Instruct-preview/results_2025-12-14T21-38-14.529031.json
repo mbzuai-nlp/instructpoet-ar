@@ -1,0 +1,1037 @@
+{
+  "results": {
+    "dialectical_poetry_analysis_continuation": {
+      "acc,none": 0.6620847651775487,
+      "acc_stderr,none": 0.004933205754012539,
+      "alias": "dialectical_poetry_analysis_continuation"
+    },
+    "dialectical_continuation_genre__poem_text__poet_name__meter": {
+      "alias": " - dialectical_continuation_genre__poem_text__poet_name__meter",
+      "acc,none": 0.795,
+      "acc_stderr,none": 0.02861764926136018,
+      "acc_norm,none": 0.595,
+      "acc_norm_stderr,none": 0.034798414450104016
+    },
+    "dialectical_continuation_poem_text__genre": {
+      "alias": " - dialectical_continuation_poem_text__genre",
+      "acc,none": 0.3563636363636364,
+      "acc_stderr,none": 0.02043999592932328,
+      "acc_norm,none": 0.24727272727272728,
+      "acc_norm_stderr,none": 0.018412839308543566
+    },
+    "dialectical_continuation_poem_text__keywords": {
+      "alias": " - dialectical_continuation_poem_text__keywords",
+      "acc,none": 0.7198067632850241,
+      "acc_stderr,none": 0.018036029658139753,
+      "acc_norm,none": 0.6634460547504025,
+      "acc_norm_stderr,none": 0.0189772948880654
+    },
+    "dialectical_continuation_poem_text__meter": {
+      "alias": " - dialectical_continuation_poem_text__meter",
+      "acc,none": 0.8577181208053691,
+      "acc_stderr,none": 0.012807389607505387,
+      "acc_norm,none": 0.7516778523489933,
+      "acc_norm_stderr,none": 0.015839342039129223
+    },
+    "dialectical_continuation_poem_text__poem_title": {
+      "alias": " - dialectical_continuation_poem_text__poem_title",
+      "acc,none": 0.9988584474885844,
+      "acc_stderr,none": 0.0011415525114155246,
+      "acc_norm,none": 0.9954337899543378,
+      "acc_norm_stderr,none": 0.002279187767976237
+    },
+    "dialectical_continuation_poem_text__poet_era": {
+      "alias": " - dialectical_continuation_poem_text__poet_era",
+      "acc,none": 0.47962382445141066,
+      "acc_stderr,none": 0.019794264089572577,
+      "acc_norm,none": 0.3934169278996865,
+      "acc_norm_stderr,none": 0.019355390973060382
+    },
+    "dialectical_continuation_poem_text__poet_name": {
+      "alias": " - dialectical_continuation_poem_text__poet_name",
+      "acc,none": 0.7226487523992322,
+      "acc_stderr,none": 0.013875649652212866,
+      "acc_norm,none": 0.3253358925143954,
+      "acc_norm_stderr,none": 0.014520595514586444
+    },
+    "dialectical_continuation_poem_text__poet_name__genre": {
+      "alias": " - dialectical_continuation_poem_text__poet_name__genre",
+      "acc,none": 0.3644859813084112,
+      "acc_stderr,none": 0.026904690038289263,
+      "acc_norm,none": 0.2523364485981308,
+      "acc_norm_stderr,none": 0.024281086087414118
+    },
+    "dialectical_continuation_poem_text__poet_name__meter": {
+      "alias": " - dialectical_continuation_poem_text__poet_name__meter",
+      "acc,none": 0.778169014084507,
+      "acc_stderr,none": 0.024697605755352684,
+      "acc_norm,none": 0.6690140845070423,
+      "acc_norm_stderr,none": 0.027972363900546835
+    },
+    "dialectical_continuation_poem_text__poet_name__poet_era": {
+      "alias": " - dialectical_continuation_poem_text__poet_name__poet_era",
+      "acc,none": 0.6355555555555555,
+      "acc_stderr,none": 0.032156473698238,
+      "acc_norm,none": 0.5955555555555555,
+      "acc_norm_stderr,none": 0.03279189902971932
+    },
+    "dialectical_continuation_poem_text__poet_name__rhyme": {
+      "alias": " - dialectical_continuation_poem_text__poet_name__rhyme",
+      "acc,none": 0.252212389380531,
+      "acc_stderr,none": 0.028952167450890798,
+      "acc_norm,none": 0.252212389380531,
+      "acc_norm_stderr,none": 0.028952167450890798
+    },
+    "dialectical_continuation_poet_name__genre": {
+      "alias": " - dialectical_continuation_poet_name__genre",
+      "acc,none": 0.2668269230769231,
+      "acc_stderr,none": 0.021711710026731685,
+      "acc_norm,none": 0.21634615384615385,
+      "acc_norm_stderr,none": 0.020212157594070506
+    },
+    "dialectical_continuation_poet_name__meter": {
+      "alias": " - dialectical_continuation_poet_name__meter",
+      "acc,none": 0.49725274725274726,
+      "acc_stderr,none": 0.02624279791544144,
+      "acc_norm,none": 0.4175824175824176,
+      "acc_norm_stderr,none": 0.02588421677363805
+    },
+    "dialectical_continuation_poet_name__poet_era": {
+      "alias": " - dialectical_continuation_poet_name__poet_era",
+      "acc,none": 0.8802521008403361,
+      "acc_stderr,none": 0.014896720925408313,
+      "acc_norm,none": 0.8235294117647058,
+      "acc_norm_stderr,none": 0.017491575098235904
+    }
+  },
+  "groups": {
+    "dialectical_poetry_analysis_continuation": {
+      "acc,none": 0.6620847651775487,
+      "acc_stderr,none": 0.004933205754012539,
+      "alias": "dialectical_poetry_analysis_continuation"
+    }
+  },
+  "group_subtasks": {
+    "dialectical_poetry_analysis_continuation": [
+      "dialectical_continuation_poem_text__genre",
+      "dialectical_continuation_poem_text__keywords",
+      "dialectical_continuation_poem_text__meter",
+      "dialectical_continuation_poem_text__poem_title",
+      "dialectical_continuation_poem_text__poet_era",
+      "dialectical_continuation_poem_text__poet_name",
+      "dialectical_continuation_poem_text__poet_name__genre",
+      "dialectical_continuation_poem_text__poet_name__meter",
+      "dialectical_continuation_poem_text__poet_name__poet_era",
+      "dialectical_continuation_poem_text__poet_name__rhyme",
+      "dialectical_continuation_poet_name__genre",
+      "dialectical_continuation_poet_name__meter",
+      "dialectical_continuation_poet_name__poet_era",
+      "dialectical_continuation_genre__poem_text__poet_name__meter"
+    ]
+  },
+  "configs": {
+    "dialectical_continuation_genre__poem_text__poet_name__meter": {
+      "task": "dialectical_continuation_genre__poem_text__poet_name__meter",
+      "tag": "dialectical_continuation_genre__poem_text__poet_name__meter_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/dialectical_poetry_analysis_lm_harness_format/analysis_genre__poem_text__poet_name___meter.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs_continuation(dataset):\n    \"\"\"Process documents for continuation task.\n\n    Adds computed fields: question_only, choice_texts, and target_text.\n    \"\"\"\n\n    def _process_doc(doc):\n        # Extract options from question\n        options_dict = extract_options_from_question(doc[\"question\"])\n\n        # Get question without options\n        question_only = extract_question_only(doc[\"question\"])\n\n        # Get choice texts in order\n        option_letters = doc.get(\n            \"options\", [\"أ\", \"ب\", \"ج\", \"د\", \"هـ\", \"و\", \"ز\", \"ح\", \"ط\", \"ي\"]\n        )\n        choice_texts = [\n            options_dict.get(letter, \"\")\n            for letter in option_letters\n            if letter in options_dict\n        ]\n\n        # Get target text\n        correct_letter = doc[\"correct_answer\"]\n        target_text = options_dict.get(correct_letter, \"\")\n\n        # Find the index of the correct answer in choice_texts\n        try:\n            target_idx = choice_texts.index(target_text)\n        except ValueError:\n            target_idx = 0  # Fallback\n\n        return {\n            **doc,\n            \"question_only\": question_only,\n            \"choice_texts\": choice_texts,\n            \"target_text\": target_idx,  # Index of correct answer\n        }\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{question_only}}",
+      "doc_to_target": "{{target_text}}",
+      "unsafe_code": false,
+      "doc_to_choice": "{{choice_texts}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "humain-ai/ALLaM-7B-Instruct-preview",
+        "parallelize": true,
+        "trust_remote_code": true,
+        "enable_thinking": false,
+        "max_length": 8192
+      }
+    },
+    "dialectical_continuation_poem_text__genre": {
+      "task": "dialectical_continuation_poem_text__genre",
+      "tag": "dialectical_continuation_poem_text__genre_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/dialectical_poetry_analysis_lm_harness_format/analysis_poem_text___genre.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs_continuation(dataset):\n    \"\"\"Process documents for continuation task.\n\n    Adds computed fields: question_only, choice_texts, and target_text.\n    \"\"\"\n\n    def _process_doc(doc):\n        # Extract options from question\n        options_dict = extract_options_from_question(doc[\"question\"])\n\n        # Get question without options\n        question_only = extract_question_only(doc[\"question\"])\n\n        # Get choice texts in order\n        option_letters = doc.get(\n            \"options\", [\"أ\", \"ب\", \"ج\", \"د\", \"هـ\", \"و\", \"ز\", \"ح\", \"ط\", \"ي\"]\n        )\n        choice_texts = [\n            options_dict.get(letter, \"\")\n            for letter in option_letters\n            if letter in options_dict\n        ]\n\n        # Get target text\n        correct_letter = doc[\"correct_answer\"]\n        target_text = options_dict.get(correct_letter, \"\")\n\n        # Find the index of the correct answer in choice_texts\n        try:\n            target_idx = choice_texts.index(target_text)\n        except ValueError:\n            target_idx = 0  # Fallback\n\n        return {\n            **doc,\n            \"question_only\": question_only,\n            \"choice_texts\": choice_texts,\n            \"target_text\": target_idx,  # Index of correct answer\n        }\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{question_only}}",
+      "doc_to_target": "{{target_text}}",
+      "unsafe_code": false,
+      "doc_to_choice": "{{choice_texts}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "humain-ai/ALLaM-7B-Instruct-preview",
+        "parallelize": true,
+        "trust_remote_code": true,
+        "enable_thinking": false,
+        "max_length": 8192
+      }
+    },
+    "dialectical_continuation_poem_text__keywords": {
+      "task": "dialectical_continuation_poem_text__keywords",
+      "tag": "dialectical_continuation_poem_text__keywords_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/dialectical_poetry_analysis_lm_harness_format/analysis_poem_text___keywords.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs_continuation(dataset):\n    \"\"\"Process documents for continuation task.\n\n    Adds computed fields: question_only, choice_texts, and target_text.\n    \"\"\"\n\n    def _process_doc(doc):\n        # Extract options from question\n        options_dict = extract_options_from_question(doc[\"question\"])\n\n        # Get question without options\n        question_only = extract_question_only(doc[\"question\"])\n\n        # Get choice texts in order\n        option_letters = doc.get(\n            \"options\", [\"أ\", \"ب\", \"ج\", \"د\", \"هـ\", \"و\", \"ز\", \"ح\", \"ط\", \"ي\"]\n        )\n        choice_texts = [\n            options_dict.get(letter, \"\")\n            for letter in option_letters\n            if letter in options_dict\n        ]\n\n        # Get target text\n        correct_letter = doc[\"correct_answer\"]\n        target_text = options_dict.get(correct_letter, \"\")\n\n        # Find the index of the correct answer in choice_texts\n        try:\n            target_idx = choice_texts.index(target_text)\n        except ValueError:\n            target_idx = 0  # Fallback\n\n        return {\n            **doc,\n            \"question_only\": question_only,\n            \"choice_texts\": choice_texts,\n            \"target_text\": target_idx,  # Index of correct answer\n        }\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{question_only}}",
+      "doc_to_target": "{{target_text}}",
+      "unsafe_code": false,
+      "doc_to_choice": "{{choice_texts}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "humain-ai/ALLaM-7B-Instruct-preview",
+        "parallelize": true,
+        "trust_remote_code": true,
+        "enable_thinking": false,
+        "max_length": 8192
+      }
+    },
+    "dialectical_continuation_poem_text__meter": {
+      "task": "dialectical_continuation_poem_text__meter",
+      "tag": "dialectical_continuation_poem_text__meter_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/dialectical_poetry_analysis_lm_harness_format/analysis_poem_text___meter.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs_continuation(dataset):\n    \"\"\"Process documents for continuation task.\n\n    Adds computed fields: question_only, choice_texts, and target_text.\n    \"\"\"\n\n    def _process_doc(doc):\n        # Extract options from question\n        options_dict = extract_options_from_question(doc[\"question\"])\n\n        # Get question without options\n        question_only = extract_question_only(doc[\"question\"])\n\n        # Get choice texts in order\n        option_letters = doc.get(\n            \"options\", [\"أ\", \"ب\", \"ج\", \"د\", \"هـ\", \"و\", \"ز\", \"ح\", \"ط\", \"ي\"]\n        )\n        choice_texts = [\n            options_dict.get(letter, \"\")\n            for letter in option_letters\n            if letter in options_dict\n        ]\n\n        # Get target text\n        correct_letter = doc[\"correct_answer\"]\n        target_text = options_dict.get(correct_letter, \"\")\n\n        # Find the index of the correct answer in choice_texts\n        try:\n            target_idx = choice_texts.index(target_text)\n        except ValueError:\n            target_idx = 0  # Fallback\n\n        return {\n            **doc,\n            \"question_only\": question_only,\n            \"choice_texts\": choice_texts,\n            \"target_text\": target_idx,  # Index of correct answer\n        }\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{question_only}}",
+      "doc_to_target": "{{target_text}}",
+      "unsafe_code": false,
+      "doc_to_choice": "{{choice_texts}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "humain-ai/ALLaM-7B-Instruct-preview",
+        "parallelize": true,
+        "trust_remote_code": true,
+        "enable_thinking": false,
+        "max_length": 8192
+      }
+    },
+    "dialectical_continuation_poem_text__poem_title": {
+      "task": "dialectical_continuation_poem_text__poem_title",
+      "tag": "dialectical_continuation_poem_text__poem_title_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/dialectical_poetry_analysis_lm_harness_format/analysis_poem_text___poem_title.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs_continuation(dataset):\n    \"\"\"Process documents for continuation task.\n\n    Adds computed fields: question_only, choice_texts, and target_text.\n    \"\"\"\n\n    def _process_doc(doc):\n        # Extract options from question\n        options_dict = extract_options_from_question(doc[\"question\"])\n\n        # Get question without options\n        question_only = extract_question_only(doc[\"question\"])\n\n        # Get choice texts in order\n        option_letters = doc.get(\n            \"options\", [\"أ\", \"ب\", \"ج\", \"د\", \"هـ\", \"و\", \"ز\", \"ح\", \"ط\", \"ي\"]\n        )\n        choice_texts = [\n            options_dict.get(letter, \"\")\n            for letter in option_letters\n            if letter in options_dict\n        ]\n\n        # Get target text\n        correct_letter = doc[\"correct_answer\"]\n        target_text = options_dict.get(correct_letter, \"\")\n\n        # Find the index of the correct answer in choice_texts\n        try:\n            target_idx = choice_texts.index(target_text)\n        except ValueError:\n            target_idx = 0  # Fallback\n\n        return {\n            **doc,\n            \"question_only\": question_only,\n            \"choice_texts\": choice_texts,\n            \"target_text\": target_idx,  # Index of correct answer\n        }\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{question_only}}",
+      "doc_to_target": "{{target_text}}",
+      "unsafe_code": false,
+      "doc_to_choice": "{{choice_texts}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "humain-ai/ALLaM-7B-Instruct-preview",
+        "parallelize": true,
+        "trust_remote_code": true,
+        "enable_thinking": false,
+        "max_length": 8192
+      }
+    },
+    "dialectical_continuation_poem_text__poet_era": {
+      "task": "dialectical_continuation_poem_text__poet_era",
+      "tag": "dialectical_continuation_poem_text__poet_era_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/dialectical_poetry_analysis_lm_harness_format/analysis_poem_text___poet_era.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs_continuation(dataset):\n    \"\"\"Process documents for continuation task.\n\n    Adds computed fields: question_only, choice_texts, and target_text.\n    \"\"\"\n\n    def _process_doc(doc):\n        # Extract options from question\n        options_dict = extract_options_from_question(doc[\"question\"])\n\n        # Get question without options\n        question_only = extract_question_only(doc[\"question\"])\n\n        # Get choice texts in order\n        option_letters = doc.get(\n            \"options\", [\"أ\", \"ب\", \"ج\", \"د\", \"هـ\", \"و\", \"ز\", \"ح\", \"ط\", \"ي\"]\n        )\n        choice_texts = [\n            options_dict.get(letter, \"\")\n            for letter in option_letters\n            if letter in options_dict\n        ]\n\n        # Get target text\n        correct_letter = doc[\"correct_answer\"]\n        target_text = options_dict.get(correct_letter, \"\")\n\n        # Find the index of the correct answer in choice_texts\n        try:\n            target_idx = choice_texts.index(target_text)\n        except ValueError:\n            target_idx = 0  # Fallback\n\n        return {\n            **doc,\n            \"question_only\": question_only,\n            \"choice_texts\": choice_texts,\n            \"target_text\": target_idx,  # Index of correct answer\n        }\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{question_only}}",
+      "doc_to_target": "{{target_text}}",
+      "unsafe_code": false,
+      "doc_to_choice": "{{choice_texts}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "humain-ai/ALLaM-7B-Instruct-preview",
+        "parallelize": true,
+        "trust_remote_code": true,
+        "enable_thinking": false,
+        "max_length": 8192
+      }
+    },
+    "dialectical_continuation_poem_text__poet_name": {
+      "task": "dialectical_continuation_poem_text__poet_name",
+      "tag": "dialectical_continuation_poem_text__poet_name_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/dialectical_poetry_analysis_lm_harness_format/analysis_poem_text___poet_name.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs_continuation(dataset):\n    \"\"\"Process documents for continuation task.\n\n    Adds computed fields: question_only, choice_texts, and target_text.\n    \"\"\"\n\n    def _process_doc(doc):\n        # Extract options from question\n        options_dict = extract_options_from_question(doc[\"question\"])\n\n        # Get question without options\n        question_only = extract_question_only(doc[\"question\"])\n\n        # Get choice texts in order\n        option_letters = doc.get(\n            \"options\", [\"أ\", \"ب\", \"ج\", \"د\", \"هـ\", \"و\", \"ز\", \"ح\", \"ط\", \"ي\"]\n        )\n        choice_texts = [\n            options_dict.get(letter, \"\")\n            for letter in option_letters\n            if letter in options_dict\n        ]\n\n        # Get target text\n        correct_letter = doc[\"correct_answer\"]\n        target_text = options_dict.get(correct_letter, \"\")\n\n        # Find the index of the correct answer in choice_texts\n        try:\n            target_idx = choice_texts.index(target_text)\n        except ValueError:\n            target_idx = 0  # Fallback\n\n        return {\n            **doc,\n            \"question_only\": question_only,\n            \"choice_texts\": choice_texts,\n            \"target_text\": target_idx,  # Index of correct answer\n        }\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{question_only}}",
+      "doc_to_target": "{{target_text}}",
+      "unsafe_code": false,
+      "doc_to_choice": "{{choice_texts}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "humain-ai/ALLaM-7B-Instruct-preview",
+        "parallelize": true,
+        "trust_remote_code": true,
+        "enable_thinking": false,
+        "max_length": 8192
+      }
+    },
+    "dialectical_continuation_poem_text__poet_name__genre": {
+      "task": "dialectical_continuation_poem_text__poet_name__genre",
+      "tag": "dialectical_continuation_poem_text__poet_name__genre_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/dialectical_poetry_analysis_lm_harness_format/analysis_poem_text__poet_name___genre.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs_continuation(dataset):\n    \"\"\"Process documents for continuation task.\n\n    Adds computed fields: question_only, choice_texts, and target_text.\n    \"\"\"\n\n    def _process_doc(doc):\n        # Extract options from question\n        options_dict = extract_options_from_question(doc[\"question\"])\n\n        # Get question without options\n        question_only = extract_question_only(doc[\"question\"])\n\n        # Get choice texts in order\n        option_letters = doc.get(\n            \"options\", [\"أ\", \"ب\", \"ج\", \"د\", \"هـ\", \"و\", \"ز\", \"ح\", \"ط\", \"ي\"]\n        )\n        choice_texts = [\n            options_dict.get(letter, \"\")\n            for letter in option_letters\n            if letter in options_dict\n        ]\n\n        # Get target text\n        correct_letter = doc[\"correct_answer\"]\n        target_text = options_dict.get(correct_letter, \"\")\n\n        # Find the index of the correct answer in choice_texts\n        try:\n            target_idx = choice_texts.index(target_text)\n        except ValueError:\n            target_idx = 0  # Fallback\n\n        return {\n            **doc,\n            \"question_only\": question_only,\n            \"choice_texts\": choice_texts,\n            \"target_text\": target_idx,  # Index of correct answer\n        }\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{question_only}}",
+      "doc_to_target": "{{target_text}}",
+      "unsafe_code": false,
+      "doc_to_choice": "{{choice_texts}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "humain-ai/ALLaM-7B-Instruct-preview",
+        "parallelize": true,
+        "trust_remote_code": true,
+        "enable_thinking": false,
+        "max_length": 8192
+      }
+    },
+    "dialectical_continuation_poem_text__poet_name__meter": {
+      "task": "dialectical_continuation_poem_text__poet_name__meter",
+      "tag": "dialectical_continuation_poem_text__poet_name__meter_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/dialectical_poetry_analysis_lm_harness_format/analysis_poem_text__poet_name___meter.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs_continuation(dataset):\n    \"\"\"Process documents for continuation task.\n\n    Adds computed fields: question_only, choice_texts, and target_text.\n    \"\"\"\n\n    def _process_doc(doc):\n        # Extract options from question\n        options_dict = extract_options_from_question(doc[\"question\"])\n\n        # Get question without options\n        question_only = extract_question_only(doc[\"question\"])\n\n        # Get choice texts in order\n        option_letters = doc.get(\n            \"options\", [\"أ\", \"ب\", \"ج\", \"د\", \"هـ\", \"و\", \"ز\", \"ح\", \"ط\", \"ي\"]\n        )\n        choice_texts = [\n            options_dict.get(letter, \"\")\n            for letter in option_letters\n            if letter in options_dict\n        ]\n\n        # Get target text\n        correct_letter = doc[\"correct_answer\"]\n        target_text = options_dict.get(correct_letter, \"\")\n\n        # Find the index of the correct answer in choice_texts\n        try:\n            target_idx = choice_texts.index(target_text)\n        except ValueError:\n            target_idx = 0  # Fallback\n\n        return {\n            **doc,\n            \"question_only\": question_only,\n            \"choice_texts\": choice_texts,\n            \"target_text\": target_idx,  # Index of correct answer\n        }\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{question_only}}",
+      "doc_to_target": "{{target_text}}",
+      "unsafe_code": false,
+      "doc_to_choice": "{{choice_texts}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "humain-ai/ALLaM-7B-Instruct-preview",
+        "parallelize": true,
+        "trust_remote_code": true,
+        "enable_thinking": false,
+        "max_length": 8192
+      }
+    },
+    "dialectical_continuation_poem_text__poet_name__poet_era": {
+      "task": "dialectical_continuation_poem_text__poet_name__poet_era",
+      "tag": "dialectical_continuation_poem_text__poet_name__poet_era_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/dialectical_poetry_analysis_lm_harness_format/analysis_poem_text__poet_name___poet_era.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs_continuation(dataset):\n    \"\"\"Process documents for continuation task.\n\n    Adds computed fields: question_only, choice_texts, and target_text.\n    \"\"\"\n\n    def _process_doc(doc):\n        # Extract options from question\n        options_dict = extract_options_from_question(doc[\"question\"])\n\n        # Get question without options\n        question_only = extract_question_only(doc[\"question\"])\n\n        # Get choice texts in order\n        option_letters = doc.get(\n            \"options\", [\"أ\", \"ب\", \"ج\", \"د\", \"هـ\", \"و\", \"ز\", \"ح\", \"ط\", \"ي\"]\n        )\n        choice_texts = [\n            options_dict.get(letter, \"\")\n            for letter in option_letters\n            if letter in options_dict\n        ]\n\n        # Get target text\n        correct_letter = doc[\"correct_answer\"]\n        target_text = options_dict.get(correct_letter, \"\")\n\n        # Find the index of the correct answer in choice_texts\n        try:\n            target_idx = choice_texts.index(target_text)\n        except ValueError:\n            target_idx = 0  # Fallback\n\n        return {\n            **doc,\n            \"question_only\": question_only,\n            \"choice_texts\": choice_texts,\n            \"target_text\": target_idx,  # Index of correct answer\n        }\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{question_only}}",
+      "doc_to_target": "{{target_text}}",
+      "unsafe_code": false,
+      "doc_to_choice": "{{choice_texts}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "humain-ai/ALLaM-7B-Instruct-preview",
+        "parallelize": true,
+        "trust_remote_code": true,
+        "enable_thinking": false,
+        "max_length": 8192
+      }
+    },
+    "dialectical_continuation_poem_text__poet_name__rhyme": {
+      "task": "dialectical_continuation_poem_text__poet_name__rhyme",
+      "tag": "dialectical_continuation_poem_text__poet_name__rhyme_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/dialectical_poetry_analysis_lm_harness_format/analysis_poem_text__poet_name___rhyme.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs_continuation(dataset):\n    \"\"\"Process documents for continuation task.\n\n    Adds computed fields: question_only, choice_texts, and target_text.\n    \"\"\"\n\n    def _process_doc(doc):\n        # Extract options from question\n        options_dict = extract_options_from_question(doc[\"question\"])\n\n        # Get question without options\n        question_only = extract_question_only(doc[\"question\"])\n\n        # Get choice texts in order\n        option_letters = doc.get(\n            \"options\", [\"أ\", \"ب\", \"ج\", \"د\", \"هـ\", \"و\", \"ز\", \"ح\", \"ط\", \"ي\"]\n        )\n        choice_texts = [\n            options_dict.get(letter, \"\")\n            for letter in option_letters\n            if letter in options_dict\n        ]\n\n        # Get target text\n        correct_letter = doc[\"correct_answer\"]\n        target_text = options_dict.get(correct_letter, \"\")\n\n        # Find the index of the correct answer in choice_texts\n        try:\n            target_idx = choice_texts.index(target_text)\n        except ValueError:\n            target_idx = 0  # Fallback\n\n        return {\n            **doc,\n            \"question_only\": question_only,\n            \"choice_texts\": choice_texts,\n            \"target_text\": target_idx,  # Index of correct answer\n        }\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{question_only}}",
+      "doc_to_target": "{{target_text}}",
+      "unsafe_code": false,
+      "doc_to_choice": "{{choice_texts}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "humain-ai/ALLaM-7B-Instruct-preview",
+        "parallelize": true,
+        "trust_remote_code": true,
+        "enable_thinking": false,
+        "max_length": 8192
+      }
+    },
+    "dialectical_continuation_poet_name__genre": {
+      "task": "dialectical_continuation_poet_name__genre",
+      "tag": "dialectical_continuation_poet_name__genre_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/dialectical_poetry_analysis_lm_harness_format/analysis_poet_name___genre.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs_continuation(dataset):\n    \"\"\"Process documents for continuation task.\n\n    Adds computed fields: question_only, choice_texts, and target_text.\n    \"\"\"\n\n    def _process_doc(doc):\n        # Extract options from question\n        options_dict = extract_options_from_question(doc[\"question\"])\n\n        # Get question without options\n        question_only = extract_question_only(doc[\"question\"])\n\n        # Get choice texts in order\n        option_letters = doc.get(\n            \"options\", [\"أ\", \"ب\", \"ج\", \"د\", \"هـ\", \"و\", \"ز\", \"ح\", \"ط\", \"ي\"]\n        )\n        choice_texts = [\n            options_dict.get(letter, \"\")\n            for letter in option_letters\n            if letter in options_dict\n        ]\n\n        # Get target text\n        correct_letter = doc[\"correct_answer\"]\n        target_text = options_dict.get(correct_letter, \"\")\n\n        # Find the index of the correct answer in choice_texts\n        try:\n            target_idx = choice_texts.index(target_text)\n        except ValueError:\n            target_idx = 0  # Fallback\n\n        return {\n            **doc,\n            \"question_only\": question_only,\n            \"choice_texts\": choice_texts,\n            \"target_text\": target_idx,  # Index of correct answer\n        }\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{question_only}}",
+      "doc_to_target": "{{target_text}}",
+      "unsafe_code": false,
+      "doc_to_choice": "{{choice_texts}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "humain-ai/ALLaM-7B-Instruct-preview",
+        "parallelize": true,
+        "trust_remote_code": true,
+        "enable_thinking": false,
+        "max_length": 8192
+      }
+    },
+    "dialectical_continuation_poet_name__meter": {
+      "task": "dialectical_continuation_poet_name__meter",
+      "tag": "dialectical_continuation_poet_name__meter_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/dialectical_poetry_analysis_lm_harness_format/analysis_poet_name___meter.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs_continuation(dataset):\n    \"\"\"Process documents for continuation task.\n\n    Adds computed fields: question_only, choice_texts, and target_text.\n    \"\"\"\n\n    def _process_doc(doc):\n        # Extract options from question\n        options_dict = extract_options_from_question(doc[\"question\"])\n\n        # Get question without options\n        question_only = extract_question_only(doc[\"question\"])\n\n        # Get choice texts in order\n        option_letters = doc.get(\n            \"options\", [\"أ\", \"ب\", \"ج\", \"د\", \"هـ\", \"و\", \"ز\", \"ح\", \"ط\", \"ي\"]\n        )\n        choice_texts = [\n            options_dict.get(letter, \"\")\n            for letter in option_letters\n            if letter in options_dict\n        ]\n\n        # Get target text\n        correct_letter = doc[\"correct_answer\"]\n        target_text = options_dict.get(correct_letter, \"\")\n\n        # Find the index of the correct answer in choice_texts\n        try:\n            target_idx = choice_texts.index(target_text)\n        except ValueError:\n            target_idx = 0  # Fallback\n\n        return {\n            **doc,\n            \"question_only\": question_only,\n            \"choice_texts\": choice_texts,\n            \"target_text\": target_idx,  # Index of correct answer\n        }\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{question_only}}",
+      "doc_to_target": "{{target_text}}",
+      "unsafe_code": false,
+      "doc_to_choice": "{{choice_texts}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "humain-ai/ALLaM-7B-Instruct-preview",
+        "parallelize": true,
+        "trust_remote_code": true,
+        "enable_thinking": false,
+        "max_length": 8192
+      }
+    },
+    "dialectical_continuation_poet_name__poet_era": {
+      "task": "dialectical_continuation_poet_name__poet_era",
+      "tag": "dialectical_continuation_poet_name__poet_era_task",
+      "dataset_path": "json",
+      "dataset_kwargs": {
+        "data_files": {
+          "test": [
+            "/path/to/data/dialectical_poetry_analysis_lm_harness_format/analysis_poet_name___poet_era.json"
+          ]
+        }
+      },
+      "test_split": "test",
+      "fewshot_split": "test",
+      "process_docs": "def process_docs_continuation(dataset):\n    \"\"\"Process documents for continuation task.\n\n    Adds computed fields: question_only, choice_texts, and target_text.\n    \"\"\"\n\n    def _process_doc(doc):\n        # Extract options from question\n        options_dict = extract_options_from_question(doc[\"question\"])\n\n        # Get question without options\n        question_only = extract_question_only(doc[\"question\"])\n\n        # Get choice texts in order\n        option_letters = doc.get(\n            \"options\", [\"أ\", \"ب\", \"ج\", \"د\", \"هـ\", \"و\", \"ز\", \"ح\", \"ط\", \"ي\"]\n        )\n        choice_texts = [\n            options_dict.get(letter, \"\")\n            for letter in option_letters\n            if letter in options_dict\n        ]\n\n        # Get target text\n        correct_letter = doc[\"correct_answer\"]\n        target_text = options_dict.get(correct_letter, \"\")\n\n        # Find the index of the correct answer in choice_texts\n        try:\n            target_idx = choice_texts.index(target_text)\n        except ValueError:\n            target_idx = 0  # Fallback\n\n        return {\n            **doc,\n            \"question_only\": question_only,\n            \"choice_texts\": choice_texts,\n            \"target_text\": target_idx,  # Index of correct answer\n        }\n\n    return dataset.map(_process_doc)\n",
+      "doc_to_text": "{{question_only}}",
+      "doc_to_target": "{{target_text}}",
+      "unsafe_code": false,
+      "doc_to_choice": "{{choice_texts}}",
+      "description": "",
+      "target_delimiter": " ",
+      "fewshot_delimiter": "\n\n",
+      "fewshot_config": {
+        "sampler": "first_n"
+      },
+      "num_fewshot": 0,
+      "metric_list": [
+        {
+          "metric": "acc",
+          "aggregation": "mean",
+          "higher_is_better": true
+        },
+        {
+          "metric": "acc_norm",
+          "aggregation": "mean",
+          "higher_is_better": true
+        }
+      ],
+      "output_type": "multiple_choice",
+      "repeats": 1,
+      "should_decontaminate": false,
+      "metadata": {
+        "version": 0.0,
+        "pretrained": "humain-ai/ALLaM-7B-Instruct-preview",
+        "parallelize": true,
+        "trust_remote_code": true,
+        "enable_thinking": false,
+        "max_length": 8192
+      }
+    }
+  },
+  "versions": {
+    "dialectical_continuation_genre__poem_text__poet_name__meter": 0.0,
+    "dialectical_continuation_poem_text__genre": 0.0,
+    "dialectical_continuation_poem_text__keywords": 0.0,
+    "dialectical_continuation_poem_text__meter": 0.0,
+    "dialectical_continuation_poem_text__poem_title": 0.0,
+    "dialectical_continuation_poem_text__poet_era": 0.0,
+    "dialectical_continuation_poem_text__poet_name": 0.0,
+    "dialectical_continuation_poem_text__poet_name__genre": 0.0,
+    "dialectical_continuation_poem_text__poet_name__meter": 0.0,
+    "dialectical_continuation_poem_text__poet_name__poet_era": 0.0,
+    "dialectical_continuation_poem_text__poet_name__rhyme": 0.0,
+    "dialectical_continuation_poet_name__genre": 0.0,
+    "dialectical_continuation_poet_name__meter": 0.0,
+    "dialectical_continuation_poet_name__poet_era": 0.0,
+    "dialectical_poetry_analysis_continuation": 0
+  },
+  "n-shot": {
+    "dialectical_continuation_genre__poem_text__poet_name__meter": 0,
+    "dialectical_continuation_poem_text__genre": 0,
+    "dialectical_continuation_poem_text__keywords": 0,
+    "dialectical_continuation_poem_text__meter": 0,
+    "dialectical_continuation_poem_text__poem_title": 0,
+    "dialectical_continuation_poem_text__poet_era": 0,
+    "dialectical_continuation_poem_text__poet_name": 0,
+    "dialectical_continuation_poem_text__poet_name__genre": 0,
+    "dialectical_continuation_poem_text__poet_name__meter": 0,
+    "dialectical_continuation_poem_text__poet_name__poet_era": 0,
+    "dialectical_continuation_poem_text__poet_name__rhyme": 0,
+    "dialectical_continuation_poet_name__genre": 0,
+    "dialectical_continuation_poet_name__meter": 0,
+    "dialectical_continuation_poet_name__poet_era": 0
+  },
+  "higher_is_better": {
+    "dialectical_continuation_genre__poem_text__poet_name__meter": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "dialectical_continuation_poem_text__genre": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "dialectical_continuation_poem_text__keywords": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "dialectical_continuation_poem_text__meter": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "dialectical_continuation_poem_text__poem_title": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "dialectical_continuation_poem_text__poet_era": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "dialectical_continuation_poem_text__poet_name": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "dialectical_continuation_poem_text__poet_name__genre": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "dialectical_continuation_poem_text__poet_name__meter": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "dialectical_continuation_poem_text__poet_name__poet_era": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "dialectical_continuation_poem_text__poet_name__rhyme": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "dialectical_continuation_poet_name__genre": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "dialectical_continuation_poet_name__meter": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "dialectical_continuation_poet_name__poet_era": {
+      "acc": true,
+      "acc_norm": true
+    },
+    "dialectical_poetry_analysis_continuation": {
+      "acc": true,
+      "acc_norm": true
+    }
+  },
+  "n-samples": {
+    "dialectical_continuation_poem_text__genre": {
+      "original": 550,
+      "effective": 550
+    },
+    "dialectical_continuation_poem_text__keywords": {
+      "original": 621,
+      "effective": 621
+    },
+    "dialectical_continuation_poem_text__meter": {
+      "original": 745,
+      "effective": 745
+    },
+    "dialectical_continuation_poem_text__poem_title": {
+      "original": 876,
+      "effective": 876
+    },
+    "dialectical_continuation_poem_text__poet_era": {
+      "original": 638,
+      "effective": 638
+    },
+    "dialectical_continuation_poem_text__poet_name": {
+      "original": 1042,
+      "effective": 1042
+    },
+    "dialectical_continuation_poem_text__poet_name__genre": {
+      "original": 321,
+      "effective": 321
+    },
+    "dialectical_continuation_poem_text__poet_name__meter": {
+      "original": 284,
+      "effective": 284
+    },
+    "dialectical_continuation_poem_text__poet_name__poet_era": {
+      "original": 225,
+      "effective": 225
+    },
+    "dialectical_continuation_poem_text__poet_name__rhyme": {
+      "original": 226,
+      "effective": 226
+    },
+    "dialectical_continuation_poet_name__genre": {
+      "original": 416,
+      "effective": 416
+    },
+    "dialectical_continuation_poet_name__meter": {
+      "original": 364,
+      "effective": 364
+    },
+    "dialectical_continuation_poet_name__poet_era": {
+      "original": 476,
+      "effective": 476
+    },
+    "dialectical_continuation_genre__poem_text__poet_name__meter": {
+      "original": 200,
+      "effective": 200
+    }
+  },
+  "config": {
+    "model": "hf",
+    "model_args": "pretrained=humain-ai/ALLaM-7B-Instruct-preview,parallelize=True,trust_remote_code=True,enable_thinking=false,max_length=8192,trust_remote_code=True",
+    "batch_size": "auto",
+    "batch_sizes": [
+      19
+    ],
+    "device": null,
+    "use_cache": "<PROJECT_ROOT>/evaluation/evaluation_results_dialect_continuation/dialectical_poetry_analysis_continuation/ALLaM-7B-Instruct-preview/cache",
+    "limit": null,
+    "bootstrap_iters": 100000,
+    "gen_kwargs": null,
+    "random_seed": 42,
+    "numpy_seed": 42,
+    "torch_seed": 42,
+    "fewshot_seed": 42
+  },
+  "git_hash": "4d76f46",
+  "date": 1765731808.601122,
+  "pretty_env_info": "PyTorch version: 2.9.0+cu128\nIs debug build: False\nCUDA used to build PyTorch: 12.8\nROCM used to build PyTorch: N/A\n\nOS: Ubuntu 22.04.5 LTS (x86_64)\nGCC version: (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0\nClang version: Could not collect\nCMake version: version 3.22.1\nLibc version: glibc-2.35\n\nPython version: 3.10.19 | packaged by conda-forge | (main, Oct 22 2025, 22:29:10) [GCC 14.3.0] (64-bit runtime)\nPython platform: Linux-5.15.0-131-generic-x86_64-with-glibc2.35\nIs CUDA available: True\nCUDA runtime version: Could not collect\nCUDA_MODULE_LOADING set to: \nGPU models and configuration: \nGPU 0: NVIDIA A100-SXM4-80GB\nGPU 1: NVIDIA A100-SXM4-80GB\nGPU 2: NVIDIA A100-SXM4-80GB\nGPU 3: NVIDIA A100-SXM4-80GB\n\nNvidia driver version: 570.86.10\ncuDNN version: Could not collect\nIs XPU available: False\nHIP runtime version: N/A\nMIOpen runtime version: N/A\nIs XNNPACK available: True\n\nCPU:\nArchitecture:                         x86_64\nCPU op-mode(s):                       32-bit, 64-bit\nAddress sizes:                        48 bits physical, 48 bits virtual\nByte Order:                           Little Endian\nCPU(s):                               64\nOn-line CPU(s) list:                  0-63\nVendor ID:                            AuthenticAMD\nModel name:                           AMD EPYC 7713P 64-Core Processor\nCPU family:                           25\nModel:                                1\nThread(s) per core:                   1\nCore(s) per socket:                   64\nSocket(s):                            1\nStepping:                             1\nBogoMIPS:                             3992.62\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 pcid sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 invpcid_single hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload vgif v_spec_ctrl umip pku ospke vaes vpclmulqdq rdpid overflow_recov succor smca fsrm\nVirtualization:                       AMD-V\nL1d cache:                            2 MiB (64 instances)\nL1i cache:                            2 MiB (64 instances)\nL2 cache:                             32 MiB (64 instances)\nL3 cache:                             256 MiB (8 instances)\nNUMA node(s):                         4\nNUMA node0 CPU(s):                    0-15\nNUMA node1 CPU(s):                    16-31\nNUMA node2 CPU(s):                    32-47\nNUMA node3 CPU(s):                    48-63\nVulnerability Gather data sampling:   Not affected\nVulnerability Itlb multihit:          Not affected\nVulnerability L1tf:                   Not affected\nVulnerability Mds:                    Not affected\nVulnerability Meltdown:               Not affected\nVulnerability Mmio stale data:        Not affected\nVulnerability Reg file data sampling: Not affected\nVulnerability Retbleed:               Not affected\nVulnerability Spec rstack overflow:   Mitigation; safe RET\nVulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl and seccomp\nVulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP disabled; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                  Not affected\nVulnerability Tsx async abort:        Not affected\n\nVersions of relevant libraries:\n[pip3] mypy==1.18.2\n[pip3] mypy_extensions==1.1.0\n[pip3] numpy==2.2.6\n[pip3] nvidia-cublas-cu12==12.8.4.1\n[pip3] nvidia-cuda-cupti-cu12==12.8.90\n[pip3] nvidia-cuda-nvrtc-cu12==12.8.93\n[pip3] nvidia-cuda-runtime-cu12==12.8.90\n[pip3] nvidia-cudnn-cu12==9.10.2.21\n[pip3] nvidia-cudnn-frontend==1.16.0\n[pip3] nvidia-cufft-cu12==11.3.3.83\n[pip3] nvidia-curand-cu12==10.3.9.90\n[pip3] nvidia-cusolver-cu12==11.7.3.90\n[pip3] nvidia-cusparse-cu12==12.5.8.93\n[pip3] nvidia-cusparselt-cu12==0.7.1\n[pip3] nvidia-nccl-cu12==2.27.5\n[pip3] nvidia-nvjitlink-cu12==12.8.93\n[pip3] nvidia-nvtx-cu12==12.8.90\n[pip3] torch==2.9.0\n[pip3] torchaudio==2.9.0\n[pip3] torchvision==0.24.0\n[pip3] triton==3.5.0\n[conda] numpy                     2.2.6                    pypi_0    pypi\n[conda] nvidia-cublas-cu12        12.8.4.1                 pypi_0    pypi\n[conda] nvidia-cuda-cupti-cu12    12.8.90                  pypi_0    pypi\n[conda] nvidia-cuda-nvrtc-cu12    12.8.93                  pypi_0    pypi\n[conda] nvidia-cuda-runtime-cu12  12.8.90                  pypi_0    pypi\n[conda] nvidia-cudnn-cu12         9.10.2.21                pypi_0    pypi\n[conda] nvidia-cudnn-frontend     1.16.0                   pypi_0    pypi\n[conda] nvidia-cufft-cu12         11.3.3.83                pypi_0    pypi\n[conda] nvidia-curand-cu12        10.3.9.90                pypi_0    pypi\n[conda] nvidia-cusolver-cu12      11.7.3.90                pypi_0    pypi\n[conda] nvidia-cusparse-cu12      12.5.8.93                pypi_0    pypi\n[conda] nvidia-cusparselt-cu12    0.7.1                    pypi_0    pypi\n[conda] nvidia-nccl-cu12          2.27.5                   pypi_0    pypi\n[conda] nvidia-nvjitlink-cu12     12.8.93                  pypi_0    pypi\n[conda] nvidia-nvtx-cu12          12.8.90                  pypi_0    pypi\n[conda] torch                     2.9.0                    pypi_0    pypi\n[conda] torchaudio                2.9.0                    pypi_0    pypi\n[conda] torchvision               0.24.0                   pypi_0    pypi\n[conda] triton                    3.5.0                    pypi_0    pypi",
+  "transformers_version": "4.57.3",
+  "lm_eval_version": "0.4.9.1",
+  "upper_git_hash": "4d76f46a2a27f941a9b07a73a7da5142ebceec78",
+  "tokenizer_pad_token": [
+    "<unk>",
+    "0"
+  ],
+  "tokenizer_eos_token": [
+    "</s>",
+    "2"
+  ],
+  "tokenizer_bos_token": [
+    "<s>",
+    "1"
+  ],
+  "eot_token_id": 2,
+  "max_length": 8192,
+  "task_hashes": {
+    "dialectical_continuation_poem_text__genre": "0adf8b86c8cfc95a04a051cee9668e45579c98258a84b500da87d251bf2b5753",
+    "dialectical_continuation_poem_text__keywords": "8c1c6244f5c7ff26a4fd8a71227d4a0558c6f88c3fa73481f94cf5e0d1ba1561",
+    "dialectical_continuation_poem_text__meter": "e638b64a04a201c0129a00a8421209d5abe0f2086c794818e33a05cf2999b92c",
+    "dialectical_continuation_poem_text__poem_title": "f4b1c8090da7c2c7ddf30fb91c176395c15ec7f1f96d67f7a39d1416e782b521",
+    "dialectical_continuation_poem_text__poet_era": "81c36ae16c00eff6c69e684b178d128881a3740957f9b8f79e031c8b9c3fdb9c",
+    "dialectical_continuation_poem_text__poet_name": "d1bc56748b842a9620787fc69acd8fd448fad6b214a5067fd4c4f292379c8e33",
+    "dialectical_continuation_poem_text__poet_name__genre": "d38555459f30354902203a9e4c8844f15cee79042d4e1ca6ae64dcdd7e766b8d",
+    "dialectical_continuation_poem_text__poet_name__meter": "d0f6c72b3df0923506012094f1d14dfdfdd456d685470279efd440b6cc38ddb2",
+    "dialectical_continuation_poem_text__poet_name__poet_era": "76ad1fa8a3ed712d87e73ba9a041a52010d2c561642ff52cf6953f9c431809cd",
+    "dialectical_continuation_poem_text__poet_name__rhyme": "122d46fd9423352c070091ec8313b281a3bbc491b00adf148252872cac222e0b",
+    "dialectical_continuation_poet_name__genre": "fe38c1d8c9f0148c9dd9ac63a86c3e6e5bf0475f40af5abfe2cc0992a337eca0",
+    "dialectical_continuation_poet_name__meter": "a1c78f934fe2c7639d6b307c91e0a07568c18ab2abb94c1103f6a39d9fd9a5b6",
+    "dialectical_continuation_poet_name__poet_era": "1eb57fe4eff840c5d7582065957746b691617fb405defc11d373ac6c8f305a81",
+    "dialectical_continuation_genre__poem_text__poet_name__meter": "6bf28c980c0c51741999dea37702e6f9af99f788ff1473eed7b85696003956f4"
+  },
+  "model_source": "hf",
+  "model_name": "humain-ai/ALLaM-7B-Instruct-preview",
+  "model_name_sanitized": "humain-ai__ALLaM-7B-Instruct-preview",
+  "system_instruction": null,
+  "system_instruction_sha": null,
+  "fewshot_as_multiturn": false,
+  "chat_template": "{% if messages[0]['role'] == 'system' %}{% set loop_messages = messages[1:] %}{% set system_message = messages[0]['content'] %}{% else %}{% set loop_messages = messages %}{% set system_message = false %}{% endif %}{% for message in loop_messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if loop.index0 == 0 and system_message != false %}{% set content = '<<SYS>>\\n' + system_message + '\\n<</SYS>>\\n\\n' + message['content'] %}{% else %}{% set content = message['content'] %}{% endif %}{% if message['role'] == 'user' %}{{ bos_token + ' [INST] ' + content.strip() + ' [/INST]' }}{% elif message['role'] == 'assistant' %}{{ ' '  + content.strip() + ' ' + eos_token }}{% endif %}{% endfor %}",
+  "chat_template_sha": "f1dff938141b507da4a409b6bb3431382088a97a963acd246a41f2f344ae831f",
+  "start_time": 17144881.549195908,
+  "end_time": 17146969.39980939,
+  "total_evaluation_time_seconds": "2087.8506134822965"
+}
